@@ -1,0 +1,122 @@
+{
+    "survey_dict": {
+        "VNM": {
+            "2021": {
+                "household": {
+                    "filename": "hh_2021.sav",
+                    "cluster_id": "HH1",
+                    "household_id": "HH2",
+                    "eth_hoh": {
+                        "col_name": "HC2",
+                        "rename": {"HC2": "ethnicity_hh"},
+                        "replace": {
+                            "KINH/HOA": "Kinh and Hoa",
+                            "TAY, THAI, MUONG, NUNG": "Tay, Thai, Muong, Nung",
+                            "OTHER": "Other/Missing",
+                            "MONG": "Mong",
+                            "KHMER": "Khmer",
+                            "NaN": "Other/Missing",
+                            "NO RESPONSE": "Other/Missing"
+                        }
+                    } 
+                },
+                "listing": {
+                    "filename": "hl_2021.sav",
+                    "cluster_id": "HH1",
+                    "household_id": "HH2",
+                    "relationship_hoh": {
+                        "col_name": "HL3",
+                        "value": "HEAD"
+                    },
+                    "sex_hoh": {
+                        "col_name": "HL4",
+                        "rename": {"HL4": "HHSEX"},
+                        "replace": {
+                            "FEMALE": "Female",
+                            "MALE": "Male"
+                        }
+                    },
+                    "age_hoh": {
+                        "col_name": "HL6",
+                        "rename": {"HL6": "HHAGE"},
+                        "replace": null
+                    }
+                },
+                "women": {
+                    "filename": "wm_2021.sav",
+                    "cluster_id": "HH1",
+                    "household_id": "HH2"
+                },
+                "children": {
+                    "filename": "ch_2021.sav",
+                    "cluster_id": "HH1",
+                    "household_id": "HH2"
+                },
+                "merge": {
+                    "filename": {
+                        "hh": "VNM_2021_household_merge.csv",
+                        "hl": "VNM_2021_listing_merge.csv"
+                    }
+                }
+            },
+            "2014": {
+                "household": {
+                    "filename": "hh_2014.sav",
+                    "cluster_id": "HH1",
+                    "household_id": "HH2",
+                    "eth_hoh": {
+                        "col_name": "HC1C",
+                        "rename": {"HC1C": "ethnicity_hh"},
+                        "replace": {
+                            "Kinh": "Kinh and Hoa",
+                            "Other": "Other/Missing",
+                            "Tay": "Tay, Thai, Muong, Nung",
+                            "NaN": "Other/Missing",
+                            "Nung": "Tay, Thai, Muong, Nung",
+                            "Thai": "Tay, Thai, Muong, Nung",
+                            "Muong": "Tay, Thai, Muong, Nung",
+                            "E de": "Other/Missing",
+                            "Ba na": "Other/Missing",
+                            "Chinese": "Other/Missing",
+                            "Gia Rai": "Other/Missing",
+                            "Khmer": "Khmer",
+                            "Mong": "Mong"
+                        }
+                    } 
+                },
+                "listing": {
+                    "filename": "hl_2014.sav",
+                    "cluster_id": "HH1",
+                    "household_id": "HH2",
+                    "relationship_hoh": {
+                        "col_name": "HL3",
+                        "value": "Head"
+                    },
+                    "sex_hoh": {
+                        "col_name": "HL4",
+                        "rename": {"HL4": "HHSEX"},
+                        "replace": {
+                            "Female": "Female",
+                            "Male": "Male"
+                        }
+                    },
+                    "age_hoh": {
+                        "col_name": "HL6",
+                        "rename": {"HL6": "HHAGE"},
+                        "replace": null
+                    }
+                },
+                "women": {},
+                "children": {
+                    "filename": "ch_2021.sav"
+                }
+            }
+        },
+        "KHM": {
+
+        },
+        "LAO": {
+
+        }
+    }
+}

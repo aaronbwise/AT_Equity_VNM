@@ -1,0 +1,22 @@
+{
+    "VNM": {
+        "2021": {
+            "anc_4_visits": {
+                "col_name": "MN5",
+                "dtype": "categorical"
+            },
+            "anc_3_components": {
+                "col_name": {
+                    "comp1": {"MN6A": "YES"},
+                    "comp2": {"MN6B": "YES"},
+                    "comp3": {"MN6C": "YES"}
+                }
+            },
+            "inst_delivery": {
+                "col_name": {
+
+                }
+            }
+        }
+    }
+}
