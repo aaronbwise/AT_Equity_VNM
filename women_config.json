@@ -1,22 +1,54 @@
 {
-    "VNM": {
-        "2021": {
-            "anc_4_visits": {
-                "col_name": "MN5",
-                "dtype": "categorical"
+  "VNM": {
+    "2021": {
+      "anc_4_visits": {
+        "col_names": ["MN5"],
+        "dtype": "num_categorical"
+      },
+      "anc_3_components": {
+        "col_names": ["MN6A", "MN6B", "MN6C"],
+        "values": ["YES"]
+      },
+      "inst_delivery": {
+        "col_names": ["MN20"],
+        "values": [
+          "PUBLIC HOSPITAL",
+          "PRIVATE HOSPITAL",
+          "COMMUNE HEALTH CENTRE",
+          "LOCAL CLINIC",
+          "HOSPITAL OF A MINISTRY OR A SECTOR",
+          "OTHER PRIVATE MEDICAL"
+        ]
+      },
+      "caesarean_del": {
+        "col_names": ["MN21"],
+        "values": ["YES"]
+      },
+      "pnc_mother": {
+        "sub_indicators": {
+          "health_check_after_birth": {
+            "col_names": ["PN5", "PN9"],
+            "values": ["YES"]
+          },
+          "pnc_2_days": {
+            "time_cat": {
+              "col_names": ["PN22U"],
+              "values": ["DAYS", "HOURS"]
             },
-            "anc_3_components": {
-                "col_name": {
-                    "comp1": {"MN6A": "YES"},
-                    "comp2": {"MN6B": "YES"},
-                    "comp3": {"MN6C": "YES"}
-                }
+            "time_num": {
+              "col_names": ["PN22N"],
+              "dtype": "num_categorical"
             },
-            "inst_delivery": {
-                "col_name": {
-
-                }
+            "pnc_health_provider": {
+              "col_names": ["PN23A", "PN23B", "PN23F", "PN23G"]
             }
+          }
         }
+      },
+      "low_bw": {
+        "col_names": ["MN34"],
+        "dtype": "num_categorical"
+      }
     }
+  }
 }
