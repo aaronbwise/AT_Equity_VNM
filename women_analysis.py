@@ -12,14 +12,26 @@ config_path = Path.cwd().joinpath("women_config.json")
 config_data = json.load(open(config_path))
 
 
-def convert_cat_to_numeric(df, cat_var):
+def generate_str_replace_dict(df, country, year, cat_var):
     """
-    Helper function to convert categorical variable to float, converting DK to NaN
+    Find and generate str_replace_dict based on cat_var
     """
-    df[cat_var] = np.where(df[cat_var] == "DK", "NaN", df[cat_var])
-    df[cat_var] = df[cat_var].astype(float)
+    if cat_var == "anc_4_visits":
+        str_replace_dict = config_data[country][year]["anc_4_visits"]["convert_values"]
+    elif cat_var == "pnc_mother":
+        str_replace_dict = config_data[country][year]["pnc_mother"]["sub_indicators"][
+            "pnc_2_days"
+        ]["time_num"]["convert_values"]
+    elif cat_var == "low_bw":
+        str_replace_dict = config_data[country][year]["low_bw"]["convert_values"]
+    elif cat_var == "early_bf":
+        str_replace_dict = config_data[country][year]["early_bf"]["time_num"][
+            "convert_values"
+        ]
+    else:
+        pass
 
-    return df
+    return str_replace_dict
 
 
 def create_anc_4_visits(df, country, year):
@@ -27,10 +39,15 @@ def create_anc_4_visits(df, country, year):
     Function to create ANC 4+ visits variable [anc_4_visits]
     """
     # :: COL_NAMES
-    var_anc_4 = config_data[country][year]["anc_4_visits"]["col_names"]
+    var_anc_4 = config_data[country][year]["anc_4_visits"]["col_names"][0]
 
-    ## Convert categorical column to float
-    df = convert_cat_to_numeric(df, var_anc_4)
+    ## Replace str values with numeric
+    str_replace_dict = generate_str_replace_dict(df, country, year, "anc_4_visits")
+
+    df[var_anc_4] = df[var_anc_4].replace(str_replace_dict)
+
+    ## Cast categorical column to float
+    df[var_anc_4] = df[var_anc_4].astype(float)
 
     ## Create categories
     conditions = [
@@ -71,7 +88,7 @@ def create_inst_delivery(df, country, year):
     Function to create institutional delivery variable [inst_delivery]
     """
     # :: COL_NAMES
-    var_inst_delivery = config_data[country][year]["inst_delivery"]["col_names"]
+    var_inst_delivery = config_data[country][year]["inst_delivery"]["col_names"][0]
 
     # :: VALUES
     inst_delivery_values = config_data[country][year]["inst_delivery"]["values"]
@@ -87,7 +104,7 @@ def create_caesarean_del(df, country, year):
     Function to create caesarean delivery variable [caesarean_del]
     """
     # :: COL_NAMES
-    var_caesarean_del = config_data[country][year]["caesarean_del"]["col_names"]
+    var_caesarean_del = config_data[country][year]["caesarean_del"]["col_names"][0]
 
     # :: VALUES
     caesarean_del_values = config_data[country][year]["caesarean_del"]["values"]
@@ -144,8 +161,12 @@ def create_pnc_mother(df, country, year):
         "sub_indicators"
     ]["pnc_2_days"]["pnc_health_provider"]["col_names"]
 
-    # Convert time_num to float
-    df[var_time_num] = np.where(df[var_time_num] == "DK", "99.0", df[var_time_num])
+    ## Replace str values with numeric
+    str_replace_dict = generate_str_replace_dict(df, country, year, "pnc_mother")
+
+    df[var_time_num] = df[var_time_num].replace(str_replace_dict)
+
+    ## Cast categorical column to float
     df[var_time_num] = df[var_time_num].astype(float)
 
     # :: VALUES
@@ -159,8 +180,8 @@ def create_pnc_mother(df, country, year):
     ## Create sub-indicator
     df["pnc_2_days"] = np.where(
         (
-            (df[var_time_cat] == "HOURS")
-            | ((df[var_time_cat] == "DAYS") & (df[var_time_num] <= 2))
+            (df[var_time_cat] == time_cat_hours_values)
+            | ((df[var_time_cat] == time_cat_days_values) & (df[var_time_num] <= 2))
         ),
         100,
         0,
@@ -187,8 +208,48 @@ def create_low_bw(df, country, year):
     # :: COL_NAMES
     var_low_bw = config_data[country][year]["low_bw"]["col_names"]
 
-    ## Convert categorical column to float
-    df = convert_cat_to_numeric(df, var_low_bw)
+    ## Replace str values with numeric
+    str_replace_dict = generate_str_replace_dict(df, country, year, "low_bw")
+
+    df[var_low_bw] = df[var_low_bw].replace(str_replace_dict)
+
+    ## Cast categorical column to float
+    df[var_low_bw] = df[var_low_bw].astype(float)
 
     # Create indicator
     df["low_bw"] = np.where(df[var_low_bw] < 2.5, 100, 0)
+
+
+def create_early_bf(df, country, year):
+    """
+    Function to create Early Initiation BF [early_bf]
+    """
+    # :: COL_NAMES
+    var_time_cat = config_data[country][year]["early_bf"]["time_cat"]["col_names"][0]
+    var_time_num = config_data[country][year]["early_bf"]["time_num"]["col_names"][0]
+
+    # Clean str trash
+    df[var_time_num] = df[var_time_num].astype(str).str.replace("’", "")
+
+    ## Replace str values with numeric
+    str_replace_dict = generate_str_replace_dict(df, country, year, "early_bf")
+
+    df = df.replace(str_replace_dict)
+
+    ## Cast categorical column to float
+    df[var_time_num] = df[var_time_num].astype(float)
+
+    # :: VALUES
+    time_cat_immediately_values = config_data[country][year]["early_bf"]["time_cat"][
+        "values"
+    ][0]
+    time_cat_hours_values = config_data[country][year]["early_bf"]["time_cat"][
+        "values"
+    ][1]
+
+    df["early_bf"] = np.where(
+        (df[var_time_cat] == time_cat_immediately_values)
+        | ((df[var_time_cat] == time_cat_hours_values) & (df[var_time_num] < 1)),
+        100,
+        0,
+    )

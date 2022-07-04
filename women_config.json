@@ -3,7 +3,10 @@
     "2021": {
       "anc_4_visits": {
         "col_names": ["MN5"],
-        "dtype": "num_categorical"
+        "dtype": "num_categorical",
+        "convert_values": {
+          "DK": "NaN"
+        }
       },
       "anc_3_components": {
         "col_names": ["MN6A", "MN6B", "MN6C"],
@@ -37,7 +40,10 @@
             },
             "time_num": {
               "col_names": ["PN22N"],
-              "dtype": "num_categorical"
+              "dtype": "num_categorical",
+              "convert_values": {
+                "DK": "99.0"
+              }
             },
             "pnc_health_provider": {
               "col_names": ["PN23A", "PN23B", "PN23F", "PN23G"]
@@ -47,7 +53,24 @@
       },
       "low_bw": {
         "col_names": ["MN34"],
-        "dtype": "num_categorical"
+        "dtype": "num_categorical",
+        "convert_values": {
+          "DK": "NaN"
+        }
+      },
+      "early_bf": {
+        "time_cat": {
+          "col_names": ["MN37U"],
+          "values": ["IMMEDIATELY", "HOURS", "DAYS", "SPECIAL"]
+        },
+        "time_num": {
+          "col_names": ["MN37N"],
+          "dtype": "num_categorical",
+          "convert_values": {
+            "IMMEDIATELY": "0.0",
+            "DK / DONT REMEMBER": "99.0"
+          }
+        }
       }
     }
   }
