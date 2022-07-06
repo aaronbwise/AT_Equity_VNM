@@ -71,7 +71,212 @@
             "DK / DONT REMEMBER": "99.0"
           }
         }
+      },
+      "mother_edu": {
+        "col_names": ["WB6A"],
+        "values": {
+            "none_primary": ["ECE", "PRIMARY"],
+            "secondary": ["LOWER SECONDARY", "UPPER SECONDARY", "VOCATIONAL HIGH SCHOOL"],
+            "higher": ["UNIVERSITY/ COLLEGE OR HIGHER"],
+            "missing": ["NaN", "DK"]
+        }
+      },
+      "women_file_subset": {
+        "col_names": {
+            "quest_complete": ["WM17"],
+            "birth_2_years": ["CM17"]
+        },
+        "values": {
+            "quest_complete": ["COMPLETED"],
+            "birth_2_years": ["ONE OR MORE LIVE BIRTHS IN THE LAST 2 YEARS"]
+        }
       }
-    }
+    },
+    "2014": {
+      "anc_4_visits": {
+        "col_names": ["MN3"],
+        "dtype": "num_categorical",
+        "convert_values": {
+          "DK": "NaN"
+        }
+      },
+      "anc_3_components": {
+        "col_names": ["MN4A", "MN4B", "MN4C"],
+        "values": ["Yes"]
+      },
+      "inst_delivery": {
+        "col_names": ["MN18"],
+        "values": [
+            "Government hospital", 
+            "Private hospital", 
+            "Commune health centre", 
+            "Private clinic", 
+            "Policlinic", 
+            "Other public", 
+            "Private maternity home"
+        ]
+      },
+      "caesarean_del": {
+        "col_names": ["MN19"],
+        "values": ["Yes"]
+      },
+      "pnc_mother": {
+        "sub_indicators": {
+          "health_check_after_birth": {
+            "col_names": ["PN4", "PN8"],
+            "values": ["Yes"]
+          },
+          "pnc_2_days": {
+            "time_cat": {
+              "col_names": ["PN21U"],
+              "values": ["Days", "Hours"]
+            },
+            "time_num": {
+              "col_names": ["PN21N"],
+              "dtype": "num_categorical",
+              "convert_values": {
+                "DK": "99.0"
+              }
+            },
+            "pnc_health_provider": {
+              "col_names": ["PN22A", "PN22B", "PN22F", "PN22G"]
+            }
+          }
+        }
+      },
+      "low_bw": {
+        "col_names": ["MN22"],
+        "dtype": "num_categorical",
+        "convert_values": {
+          "DK": "NaN"
+        }
+      },
+      "early_bf": {
+        "time_cat": {
+          "col_names": ["MN25U"],
+          "values": ["Immediately", "Hours", "Days", "Special"]
+        },
+        "time_num": {
+          "col_names": ["MN25N"],
+          "dtype": "num_categorical",
+          "convert_values": {
+            "IMMEDIATELY": "0.0",
+            "DK / DONT REMEMBER": "99.0"
+          }
+        }
+      },
+      "mother_edu": {
+        "col_names": ["WB4"],
+        "values": {
+            "none_primary": ["Preschool", "Primary"],
+            "secondary": ["Lower Secondary", "Upper Secondary", "Professional School"],
+            "higher": ["College/University & above"],
+            "missing": ["NaN"]
+        }
+      },
+      "women_file_subset": {
+        "col_names": {
+            "quest_complete": ["WM7"],
+            "birth_2_years": ["CM13"]
+        },
+        "values": {
+            "quest_complete": ["Completed"],
+            "birth_2_years": ["Yes"]
+        }
+      }
+    },
+    "2011": {
+        "anc_4_visits": {
+          "col_names": ["MN3"],
+          "dtype": "num_categorical",
+          "convert_values": {
+            "DK": "NaN"
+          }
+        },
+        "anc_3_components": {
+          "col_names": ["MN4A", "MN4B", "MN4C"],
+          "values": ["Yes"]
+        },
+        "inst_delivery": {
+          "col_names": ["MN18"],
+          "values": [
+              "Government hospital", 
+              "Private hospital", 
+              "Commune health centre", 
+              "Private clinic", 
+              "Policlinic", 
+              "Other public", 
+              "Private maternity home"
+          ]
+        },
+        "caesarean_del": {
+          "col_names": ["MN19"],
+          "values": ["Yes"]
+        },
+        "pnc_mother": {
+          "sub_indicators": {
+            "health_check_after_birth": {
+              "col_names": ["PN4", "PN8"],
+              "values": ["Yes"]
+            },
+            "pnc_2_days": {
+              "time_cat": {
+                "col_names": ["PN21U"],
+                "values": ["Days", "Hours"]
+              },
+              "time_num": {
+                "col_names": ["PN21N"],
+                "dtype": "num_categorical",
+                "convert_values": {
+                  "DK": "99.0"
+                }
+              },
+              "pnc_health_provider": {
+                "col_names": ["PN22A", "PN22B", "PN22F", "PN22G"]
+              }
+            }
+          }
+        },
+        "low_bw": {
+          "col_names": ["MN22"],
+          "dtype": "num_categorical",
+          "convert_values": {
+            "DK": "NaN"
+          }
+        },
+        "early_bf": {
+          "time_cat": {
+            "col_names": ["MN25U"],
+            "values": ["Immediately", "Hours", "Days", "Special"]
+          },
+          "time_num": {
+            "col_names": ["MN25N"],
+            "dtype": "num_categorical",
+            "convert_values": {
+              "IMMEDIATELY": "0.0",
+              "DK / DONT REMEMBER": "99.0"
+            }
+          }
+        },
+        "mother_edu": {
+          "col_names": ["WB4"],
+          "values": {
+              "none_primary": ["Preschool", "Primary"],
+              "secondary": ["Lower Secondary", "Upper Secondary", "Professional School"],
+              "higher": ["College/University & above"],
+              "missing": ["NaN"]
+          }
+        },
+        "women_file_subset": {
+          "col_names": {
+              "quest_complete": ["WM7"],
+              "birth_2_years": ["CM13"]
+          },
+          "values": {
+              "quest_complete": ["Completed"],
+              "birth_2_years": ["Yes"]
+          }
+        }
+      }
   }
 }

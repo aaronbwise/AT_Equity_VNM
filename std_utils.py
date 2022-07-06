@@ -11,6 +11,8 @@ import pandas as pd
 config_path = Path.cwd().joinpath("config.json")
 config_data = json.load(open(config_path))
 
+working_path = Path.cwd().joinpath("analyzed")
+
 
 def read_file(country, year, recode):
     """
@@ -25,9 +27,7 @@ def read_file(country, year, recode):
 
     df = pd.read_spss(file_path)
 
-    print(
-        f"The file -- {fn} -- has the following shape: Rows: {df.shape[0]}; Columns: {df.shape[1]}"
-    )
+    print(f"The file -- {fn} -- has the following shape: Rows: {df.shape[0]}; Columns: {df.shape[1]}")
 
     return df
 
@@ -128,20 +128,14 @@ def subset_df(df, country, year, recode, var_subset):
     Function which subsets the dataframe on variable of interested.
     """
 
-    subset_col_name = config_data["survey_dict"][country][year][recode][var_subset][
-        "col_name"
-    ]
+    subset_col_name = config_data["survey_dict"][country][year][recode][var_subset]["col_name"]
 
-    subset_value = config_data["survey_dict"][country][year][recode][var_subset][
-        "value"
-    ]
+    subset_value = config_data["survey_dict"][country][year][recode][var_subset]["value"]
 
     df = df[df[subset_col_name] == subset_value]
 
     ## Confirm HHID is unique
-    print(
-        f"The merge variable *HHID* is unique: {str(df.HHID.nunique() == df.shape[0])}"
-    )
+    print(f"The merge variable *HHID* is unique: {str(df.HHID.nunique() == df.shape[0])}")
 
     return df
 
@@ -152,10 +146,7 @@ def standardize_col_names(df, country, year, recode, var_rename):
     """
 
     #  -- Identify and keep var, HHID -- #
-    var_col_name_list = [
-        config_data["survey_dict"][country][year][recode][var]["col_name"]
-        for var in var_rename
-    ]
+    var_col_name_list = [config_data["survey_dict"][country][year][recode][var]["col_name"] for var in var_rename]
 
     merge_cols = ["HHID"] + var_col_name_list
 
@@ -163,10 +154,7 @@ def standardize_col_names(df, country, year, recode, var_rename):
     df = df[merge_cols]
 
     ## Standardize column names
-    var_rename_list_of_dict = [
-        config_data["survey_dict"][country][year][recode][var]["rename"]
-        for var in var_rename
-    ]
+    var_rename_list_of_dict = [config_data["survey_dict"][country][year][recode][var]["rename"] for var in var_rename]
 
     # Code to flatten list of dictionary
     var_rename_dict = {k: v for d in var_rename_list_of_dict for k, v in d.items()}
@@ -184,21 +172,27 @@ def standardize_col_values(df, country, year, recode, var_replace):
     Function to standardize column values.
     """
 
-    var_replace_list_of_dict = [
-        config_data["survey_dict"][country][year][recode][var]["replace"]
-        for var in var_replace
-    ]
+    var_replace_list_of_dict = [config_data["survey_dict"][country][year][recode][var]["replace"] for var in var_replace]
 
-    var_col_name_new_list = [
-        list(config_data["survey_dict"][country][year][recode][var]["rename"].values())
-        for var in var_replace
-    ]
+    var_col_name_new_list = [list(config_data["survey_dict"][country][year][recode][var]["rename"].values()) for var in var_replace]
 
     var_col_name_new_list = list(np.concatenate(var_col_name_new_list))
 
     var_replace_nested_dict = dict(zip(var_col_name_new_list, var_replace_list_of_dict))
 
     df = df.replace(var_replace_nested_dict)
+
+    return df
+
+def create_elderly_hoh(df, age_var):
+    """
+    Function to create Elderly HoH variable [elderly_hoh]
+    """
+
+    ## Cast str values to float
+    df[age_var] = pd.to_numeric(df[age_var], errors="coerce")
+
+    df[age_var] = np.where(df[age_var] >= 60, 'Elderly HoH: YES', 'Elderly HoH: NO')
 
     return df
 
@@ -210,3 +204,26 @@ def save_merge(df, country, year, recode):
     file_path = Path.cwd() / "data" / year / "merge" / out_fn
 
     df.to_csv(file_path, index=False)
+
+def export_analyzed_data(df, country, year, recode):
+    """
+    Function to export analyzed data working file
+    """
+
+    # Identify and select columns for working dataset
+    working_var_idx = df.columns.get_loc('Total')
+    working_var_cols = df.columns[working_var_idx:-1].to_list()
+
+    # Add weight variable
+    weight = config_data["survey_dict"][country][year][recode]["weight"]
+    working_var_cols = working_var_cols + weight
+
+    # Subset the dataframe
+    out_df = df[working_var_cols]
+
+    # Generate out_filepath
+    out_file = country + "_" + recode + "_" + year + '_working' + '.csv'
+    out_filepath = working_path.joinpath(out_file)
+
+    # Save as csv
+    out_df.to_csv(out_filepath, index=False)

@@ -7,6 +7,8 @@ from women_analysis import (
     create_pnc_mother,
     create_low_bw,
     create_early_bf,
+    create_mother_edu,
+    subset_women_file
 )
 
 from aw_analytics import mean_wt, output_mean_table

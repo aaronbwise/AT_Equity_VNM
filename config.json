@@ -6,9 +6,42 @@
                     "filename": "hh_2021.sav",
                     "cluster_id": "HH1",
                     "household_id": "HH2",
+                    "residence": {
+                        "col_name": "HH6",
+                        "rename": {
+                            "HH6": "residence"
+                        },
+                        "replace": {
+                            "URBAN": "Urban",
+                            "RURAL": "Rural"
+                        }
+                    },
+                    "region": {
+                        "col_name": "HH7",
+                        "rename": {
+                            "HH7": "region"
+                        },
+                        "replace": {
+                            "SOUTH EAST": "Southeast",
+                            "RED RIVER DELTA": "Red River Delta",
+                            "NORTHERN MIDLANDS AND MOUNTAIN": "Northern Midlands and Mountain",
+                            "MEKONG RIVER DELTA": "Mekong River Delta",
+                            "NORTH CENTRAL AND CENTRAL COASTAL": "North Central and Central Coastal",
+                            "CENTRAL HIGHLANDS": "Central Highlands"
+                        }
+                    },
+                    "wealth": {
+                        "col_name": "windex5",
+                        "rename": {
+                            "windex5": "wealth_q"
+                        },
+                        "replace": null
+                    },
                     "eth_hoh": {
                         "col_name": "HC2",
-                        "rename": {"HC2": "ethnicity_hh"},
+                        "rename": {
+                            "HC2": "eth_hoh"
+                        },
                         "replace": {
                             "KINH/HOA": "Kinh and Hoa",
                             "TAY, THAI, MUONG, NUNG": "Tay, Thai, Muong, Nung",
@@ -30,22 +63,25 @@
                     },
                     "sex_hoh": {
                         "col_name": "HL4",
-                        "rename": {"HL4": "HHSEX"},
+                        "rename": {
+                            "HL4": "sex_hoh"
+                        },
                         "replace": {
                             "FEMALE": "Female",
                             "MALE": "Male"
                         }
                     },
-                    "age_hoh": {
+                    "elderly_hoh": {
                         "col_name": "HL6",
-                        "rename": {"HL6": "HHAGE"},
+                        "rename": {"HL6": "elderly_hoh"},
                         "replace": null
                     }
                 },
                 "women": {
                     "filename": "wm_2021.sav",
                     "cluster_id": "HH1",
-                    "household_id": "HH2"
+                    "household_id": "HH2",
+                    "weight": ["wmweight"]
                 },
                 "children": {
                     "filename": "ch_2021.sav",
@@ -64,9 +100,40 @@
                     "filename": "hh_2014.sav",
                     "cluster_id": "HH1",
                     "household_id": "HH2",
+                    "residence": {
+                        "col_name": "HH6",
+                        "rename": {
+                            "HH6": "residence"
+                        },
+                        "replace": {
+                            "URBAN": "Urban",
+                            "RURAL": "Rural"
+                        }
+                    },
+                    "region": {
+                        "col_name": "HH7",
+                        "rename": {
+                            "HH7": "region"
+                        },
+                        "replace": {
+                            "South East": "Southeast",
+                            "Red River Delta": "Red River Delta",
+                            "Northern Midlands and Mountain area": "Northern Midlands and Mountain",
+                            "Mekong River Delta": "Mekong River Delta",
+                            "North Central and Central Coastal area": "North Central and Central Coastal",
+                            "Central Highlands": "Central Highlands"
+                        }
+                    },
+                    "wealth": {
+                        "col_name": "windex5",
+                        "rename": {
+                            "windex5": "wealth_q"
+                        },
+                        "replace": null
+                    },
                     "eth_hoh": {
                         "col_name": "HC1C",
-                        "rename": {"HC1C": "ethnicity_hh"},
+                        "rename": {"HC1C": "eth_hoh"},
                         "replace": {
                             "Kinh": "Kinh and Hoa",
                             "Other": "Other/Missing",
@@ -94,21 +161,124 @@
                     },
                     "sex_hoh": {
                         "col_name": "HL4",
-                        "rename": {"HL4": "HHSEX"},
-                        "replace": {
-                            "Female": "Female",
-                            "Male": "Male"
-                        }
+                        "rename": {
+                            "HL4": "sex_hoh"
+                        },
+                        "replace": null
                     },
-                    "age_hoh": {
+                    "elderly_hoh": {
                         "col_name": "HL6",
-                        "rename": {"HL6": "HHAGE"},
+                        "rename": {
+                            "HL6": "elderly_hoh"
+                        },
                         "replace": null
                     }
                 },
-                "women": {},
+                "women": {
+                    "filename": "wm_2014.sav",
+                    "cluster_id": "HH1",
+                    "household_id": "HH2",
+                    "weight": ["wmweight"]
+                },
                 "children": {
-                    "filename": "ch_2021.sav"
+                    "filename": "ch_2014.sav",
+                    "cluster_id": "HH1",
+                    "household_id": "HH2"
+                },
+                "merge": {
+                    "filename": {
+                        "hh": "VNM_2014_household_merge.csv",
+                        "hl": "VNM_2014_listing_merge.csv"
+                    }
+                }
+            },
+            "2011": {
+                "household": {
+                    "filename": "hh_2011.sav",
+                    "cluster_id": "HH1",
+                    "household_id": "HH2",
+                    "residence": {
+                        "col_name": "HH6",
+                        "rename": {
+                            "HH6": "residence"
+                        },
+                        "replace": {
+                            "URBAN": "Urban",
+                            "RURAL": "Rural"
+                        }
+                    },
+                    "region": {
+                        "col_name": "HH7",
+                        "rename": {
+                            "HH7": "region"
+                        },
+                        "replace": {
+                            "South East": "Southeast",
+                            "Red River Delta": "Red River Delta",
+                            "Northen Midlands and Mountain area": "Northern Midlands and Mountain",
+                            "Mekong River Delta": "Mekong River Delta",
+                            "North Central and Central Coastal area": "North Central and Central Coastal",
+                            "Central Highlands": "Central Highlands"
+                        }
+                    },
+                    "wealth": {
+                        "col_name": "windex5",
+                        "rename": {
+                            "windex5": "wealth_q"
+                        },
+                        "replace": null
+                    },
+                    "eth_hoh": {
+                        "col_name": "HC1C",
+                        "rename": {
+                            "HC1C": "eth_hoh"
+                        },
+                        "replace": {
+                            "Kinh": "Kinh and Hoa",
+                            "Non-Kinh": "Tay, Thai, Muong, Nung",
+                            "Missing/DK": "Other/Missing"
+                        }
+                    } 
+                },
+                "listing": {
+                    "filename": "hl_2011.sav",
+                    "cluster_id": "HH1",
+                    "household_id": "HH2",
+                    "relationship_hoh": {
+                        "col_name": "HL3",
+                        "value": "Head"
+                    },
+                    "sex_hoh": {
+                        "col_name": "HL4",
+                        "rename": {
+                            "HL4": "sex_hoh"
+                        },
+                        "replace": null
+                    },
+                    "elderly_hoh": {
+                        "col_name": "HL6",
+                        "rename": {
+                            "HL6": "elderly_hoh"
+                        },
+                        "replace": null
+                    }
+                },
+                "women": {
+                    "filename": "wm_2011.sav",
+                    "cluster_id": "HH1",
+                    "household_id": "HH2",
+                    "weight": ["wmweight"]
+                },
+                "children": {
+                    "filename": "ch_2011.sav",
+                    "cluster_id": "HH1",
+                    "household_id": "HH2"
+                },
+                "merge": {
+                    "filename": {
+                        "hh": "VNM_2011_household_merge.csv",
+                        "hl": "VNM_2011_listing_merge.csv"
+                    }
                 }
             }
         },
