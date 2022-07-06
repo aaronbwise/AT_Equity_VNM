@@ -37,11 +37,6 @@ def generate_str_replace_dict(df, country, year, cat_var):
             config_data[country][year]["early_bf"]["time_num"]["col_names"][0]: 
             config_data[country][year]["early_bf"]["time_num"]["convert_values"]
             }
-    elif cat_var == "residence":
-        str_replace_dict = {
-            config_data[country][year]["residence"]["col_names"][0]: 
-            config_data[country][year]["residence"]["convert_values"]
-            }
     else:
         pass
 
@@ -131,6 +126,7 @@ def create_pnc_mother(df, country, year):
     """
     Function to create Post-natal Health Check (mother) [pnc_mother]
     """
+
     # --- 1. Health check by health provider after birth & a) before leaving facility or b) before health provider left home
 
     # :: COL NAMES
@@ -144,7 +140,7 @@ def create_pnc_mother(df, country, year):
 
     ## Create sub-indicator
     df["health_check_after_birth"] = np.where(((df[var_after_birth_facility].isin(after_birth_values)) | \
-         (df[var_after_birth_home].isin(after_birth_values))), 100, 0)
+        (df[var_after_birth_home].isin(after_birth_values))), 100, 0)
 
     # --- 2. Post-natal care visit within 2 days
 
@@ -181,7 +177,6 @@ def create_pnc_mother(df, country, year):
 
     return df
 
-
 def create_low_bw(df, country, year):
     """
     Function to create Low Birthweight [low_bw]
@@ -209,19 +204,15 @@ def create_early_bf(df, country, year):
     """
     Function to create Early Initiation BF [early_bf]
     """
+    # Update variables for consistency between years
+    df = update_early_bf_variables(df, country, year)
+
     # :: COL_NAMES
     var_time_cat = config_data[country][year]["early_bf"]["time_cat"]["col_names"][0]
     var_time_num = config_data[country][year]["early_bf"]["time_num"]["col_names"][0]
 
-    # Clean str trash
-    df[var_time_num] = df[var_time_num].astype(str).str.replace("’", "")
-
     ## Cast categorical values with str
     df[var_time_num] = df[var_time_num].astype(str)
-
-    ## Replace str value with values
-    str_replace_dict = generate_str_replace_dict(df, country, year, "early_bf")
-    df = df.replace(str_replace_dict)
 
     ## Cast str values to float
     df[var_time_num] = pd.to_numeric(df[var_time_num], errors="coerce")
@@ -229,10 +220,12 @@ def create_early_bf(df, country, year):
     # :: VALUES
     time_cat_immediately_values = config_data[country][year]["early_bf"]["time_cat"]["values"][0]
     time_cat_hours_values = config_data[country][year]["early_bf"]["time_cat"]["values"][1]
+    time_cat_minute_values = config_data[country][year]["early_bf"]["time_cat"]["values"][2]
 
     # Create indicator
     df["early_bf"] = np.where((df[var_time_cat] == time_cat_immediately_values) | \
-         ((df[var_time_cat] == time_cat_hours_values) & (df[var_time_num] < 1)), 100, 0)
+         ((df[var_time_cat] == time_cat_hours_values) & (df[var_time_num] < 1)) | \
+            ((df[var_time_cat] == time_cat_minute_values) & (df[var_time_num] < 60)), 100, 0)
 
     return df
 
@@ -270,6 +263,29 @@ def subset_women_file(df, country, year):
     # Subset df
     df = df[(df[var_women_complete] == women_complete_values) & \
          (df[var_birth_2_years] == birth_2_years_values)]
+
     print(f"The number of mothers with a birth in the past two years is: {df.shape[0]}")
 
     return df
+
+## Helper functions to fix differences between survey years
+
+def update_early_bf_variables(df, country, year):
+    """
+    Function to update early bf variables to work with function above
+    """
+    if year == '2006':
+
+        # :: COL_NAMES
+        var_time_cat = config_data[country][year]["early_bf"]["time_cat"]["col_names"][0]
+        var_time_num = config_data[country][year]["early_bf"]["time_num"]["col_names"][0]
+
+        df[var_time_cat] = np.where(df[var_time_num] == "Immediately", "Immediately", df[var_time_cat])
+
+    else:
+        pass
+
+    return df
+
+
+

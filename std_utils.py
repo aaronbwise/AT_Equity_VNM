@@ -57,6 +57,10 @@ def generate_HHID(df, country, year, recode):
     Function takes a dataframe to generate unique HHID to
     facilitate merging data between recodes.
     """
+    
+    # Update variables for consistency between years
+    df = update_hhid_variables(df, year)
+
     # -- Create unique HHID -- #
     id1 = config_data["survey_dict"][country][year][recode]["cluster_id"]
     id2 = config_data["survey_dict"][country][year][recode]["household_id"]
@@ -78,7 +82,6 @@ def create_HHID(id1, id2):
     """
     Function to clean numeric variables, concat into string
     """
-
     # Create unique HHID to facilitate merge: zfill HH1, HH2 and concatenate
     id1 = str(id1).strip().replace(".", "-").replace("-0", "").zfill(3)
     id2 = str(id2).strip().replace(".", "-").replace("-0", "").zfill(3)
@@ -227,3 +230,18 @@ def export_analyzed_data(df, country, year, recode):
 
     # Save as csv
     out_df.to_csv(out_filepath, index=False)
+
+## Helper functions to fix differences between survey years
+
+def update_hhid_variables(df, year):
+    """
+    Function to update early bf variables to work with function above
+    """
+    if year == '2000':
+
+        df["cluster_id"] = ""
+
+    else:
+        pass
+
+    return df

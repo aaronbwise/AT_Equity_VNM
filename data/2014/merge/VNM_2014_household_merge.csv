@@ -676,7 +676,7 @@ HHID,residence,region,wealth_q,eth_hoh
 034015,Rural,Northern Midlands and Mountain,Second,Kinh and Hoa
 034016,Rural,Northern Midlands and Mountain,Middle,Kinh and Hoa
 034017,Rural,Northern Midlands and Mountain,Fourth,Other/Missing
-034018,Rural,Northern Midlands and Mountain,Middle,Other/Missing
+034018,Rural,Northern Midlands and Mountain,Middle,Kinh and Hoa
 034019,Rural,Northern Midlands and Mountain,Second,Other/Missing
 034020,Rural,Northern Midlands and Mountain,Second,Kinh and Hoa
 035001,Urban,Northern Midlands and Mountain,Richest,Kinh and Hoa
@@ -1341,9 +1341,9 @@ HHID,residence,region,wealth_q,eth_hoh
 067020,Rural,Northern Midlands and Mountain,Second,Kinh and Hoa
 068001,Urban,Northern Midlands and Mountain,Richest,Kinh and Hoa
 068002,Urban,Northern Midlands and Mountain,Richest,Kinh and Hoa
-068003,Urban,Northern Midlands and Mountain,Richest,Other/Missing
-068004,Urban,Northern Midlands and Mountain,Richest,Other/Missing
-068005,Urban,Northern Midlands and Mountain,Middle,Other/Missing
+068003,Urban,Northern Midlands and Mountain,Richest,Kinh and Hoa
+068004,Urban,Northern Midlands and Mountain,Richest,Kinh and Hoa
+068005,Urban,Northern Midlands and Mountain,Middle,Kinh and Hoa
 068006,Urban,Northern Midlands and Mountain,Richest,Other/Missing
 068007,Urban,Northern Midlands and Mountain,Richest,"Tay, Thai, Muong, Nung"
 068008,Urban,Northern Midlands and Mountain,Second,Kinh and Hoa
@@ -1614,7 +1614,7 @@ HHID,residence,region,wealth_q,eth_hoh
 081013,Urban,Red River Delta,Fourth,Kinh and Hoa
 081014,Urban,Red River Delta,Richest,Kinh and Hoa
 081015,Urban,Red River Delta,Fourth,Kinh and Hoa
-081016,Urban,Red River Delta,Middle,Other/Missing
+081016,Urban,Red River Delta,Middle,Kinh and Hoa
 081017,Urban,Red River Delta,Richest,Kinh and Hoa
 081018,Urban,Red River Delta,Richest,Kinh and Hoa
 081019,Urban,Red River Delta,Richest,Kinh and Hoa
@@ -4328,7 +4328,7 @@ HHID,residence,region,wealth_q,eth_hoh
 217007,Urban,North Central and Central Coastal,Richest,Kinh and Hoa
 217008,Urban,North Central and Central Coastal,Richest,Kinh and Hoa
 217009,Urban,North Central and Central Coastal,Middle,Kinh and Hoa
-217010,Urban,North Central and Central Coastal,Middle,Other/Missing
+217010,Urban,North Central and Central Coastal,Middle,Kinh and Hoa
 217011,Urban,North Central and Central Coastal,Richest,Kinh and Hoa
 217012,Urban,North Central and Central Coastal,Richest,Kinh and Hoa
 217013,Urban,North Central and Central Coastal,Fourth,Kinh and Hoa
@@ -5702,8 +5702,8 @@ HHID,residence,region,wealth_q,eth_hoh
 286001,Urban,Central Highlands,Middle,Kinh and Hoa
 286002,Urban,Central Highlands,Richest,Kinh and Hoa
 286003,Urban,Central Highlands,Richest,Kinh and Hoa
-286004,Urban,Central Highlands,Richest,Other/Missing
-286005,Urban,Central Highlands,Richest,Other/Missing
+286004,Urban,Central Highlands,Richest,Kinh and Hoa
+286005,Urban,Central Highlands,Richest,Kinh and Hoa
 286006,Urban,Central Highlands,Richest,Kinh and Hoa
 286007,Urban,Central Highlands,Richest,Kinh and Hoa
 286008,Urban,Central Highlands,0.0,
@@ -6405,7 +6405,7 @@ HHID,residence,region,wealth_q,eth_hoh
 321004,Urban,Central Highlands,Richest,Kinh and Hoa
 321005,Urban,Central Highlands,Fourth,Kinh and Hoa
 321006,Urban,Central Highlands,Richest,Kinh and Hoa
-321007,Urban,Central Highlands,Richest,Other/Missing
+321007,Urban,Central Highlands,Richest,Kinh and Hoa
 321008,Urban,Central Highlands,Richest,Kinh and Hoa
 321009,Urban,Central Highlands,Richest,Kinh and Hoa
 321010,Urban,Central Highlands,Richest,Kinh and Hoa
@@ -6425,7 +6425,7 @@ HHID,residence,region,wealth_q,eth_hoh
 322004,Urban,Central Highlands,Fourth,Kinh and Hoa
 322005,Urban,Central Highlands,Richest,Kinh and Hoa
 322006,Urban,Central Highlands,Richest,Kinh and Hoa
-322007,Urban,Central Highlands,Middle,Other/Missing
+322007,Urban,Central Highlands,Middle,Kinh and Hoa
 322008,Urban,Central Highlands,Richest,Kinh and Hoa
 322009,Urban,Central Highlands,Middle,Kinh and Hoa
 322010,Urban,Central Highlands,Richest,Kinh and Hoa
@@ -6928,7 +6928,7 @@ HHID,residence,region,wealth_q,eth_hoh
 347007,Urban,Southeast,0.0,
 347008,Urban,Southeast,Richest,Kinh and Hoa
 347009,Urban,Southeast,Fourth,Kinh and Hoa
-347010,Urban,Southeast,Richest,Other/Missing
+347010,Urban,Southeast,Richest,Kinh and Hoa
 347011,Urban,Southeast,Fourth,Kinh and Hoa
 347012,Urban,Southeast,Richest,Kinh and Hoa
 347013,Urban,Southeast,Fourth,Kinh and Hoa
@@ -7359,26 +7359,26 @@ HHID,residence,region,wealth_q,eth_hoh
 368018,Rural,Southeast,Middle,Khmer
 368019,Rural,Southeast,Second,Kinh and Hoa
 368020,Rural,Southeast,Middle,Kinh and Hoa
-369001,Rural,Southeast,Middle,Other/Missing
+369001,Rural,Southeast,Middle,Kinh and Hoa
 369002,Rural,Southeast,Poorest,Kinh and Hoa
 369003,Rural,Southeast,Second,Kinh and Hoa
 369004,Rural,Southeast,Poorest,Kinh and Hoa
-369005,Rural,Southeast,Poorest,Other/Missing
-369006,Rural,Southeast,Fourth,Other/Missing
+369005,Rural,Southeast,Poorest,Kinh and Hoa
+369006,Rural,Southeast,Fourth,Kinh and Hoa
 369007,Rural,Southeast,Second,Kinh and Hoa
-369008,Rural,Southeast,Poorest,Other/Missing
+369008,Rural,Southeast,Poorest,Kinh and Hoa
 369009,Rural,Southeast,Poorest,Kinh and Hoa
 369010,Rural,Southeast,Poorest,Kinh and Hoa
 369011,Rural,Southeast,Poorest,Kinh and Hoa
 369012,Rural,Southeast,Poorest,Kinh and Hoa
-369013,Rural,Southeast,Second,Other/Missing
+369013,Rural,Southeast,Second,Kinh and Hoa
 369014,Rural,Southeast,Middle,Kinh and Hoa
 369015,Rural,Southeast,Poorest,Kinh and Hoa
 369016,Rural,Southeast,Middle,Kinh and Hoa
 369017,Rural,Southeast,Second,Kinh and Hoa
 369018,Rural,Southeast,0.0,
-369019,Rural,Southeast,Poorest,Other/Missing
-369020,Rural,Southeast,Poorest,Other/Missing
+369019,Rural,Southeast,Poorest,Kinh and Hoa
+369020,Rural,Southeast,Poorest,Kinh and Hoa
 370001,Rural,Southeast,Second,Kinh and Hoa
 370002,Rural,Southeast,Poorest,Kinh and Hoa
 370003,Rural,Southeast,Poorest,Kinh and Hoa
@@ -7450,7 +7450,7 @@ HHID,residence,region,wealth_q,eth_hoh
 373009,Rural,Southeast,Second,Kinh and Hoa
 373010,Rural,Southeast,Middle,Kinh and Hoa
 373011,Rural,Southeast,Middle,Kinh and Hoa
-373012,Rural,Southeast,Second,Other/Missing
+373012,Rural,Southeast,Second,Kinh and Hoa
 373013,Rural,Southeast,Second,Kinh and Hoa
 373014,Rural,Southeast,0.0,
 373015,Rural,Southeast,Fourth,Kinh and Hoa
@@ -7535,7 +7535,7 @@ HHID,residence,region,wealth_q,eth_hoh
 377014,Rural,Southeast,Fourth,Kinh and Hoa
 377015,Rural,Southeast,Middle,Kinh and Hoa
 377016,Rural,Southeast,Middle,Kinh and Hoa
-377017,Rural,Southeast,Middle,Other/Missing
+377017,Rural,Southeast,Middle,Kinh and Hoa
 377018,Rural,Southeast,Second,Kinh and Hoa
 377019,Rural,Southeast,Second,Kinh and Hoa
 377020,Rural,Southeast,Fourth,Kinh and Hoa
@@ -7690,14 +7690,14 @@ HHID,residence,region,wealth_q,eth_hoh
 385009,Urban,Southeast,Middle,Kinh and Hoa
 385010,Urban,Southeast,Richest,Kinh and Hoa
 385011,Urban,Southeast,Richest,Kinh and Hoa
-385012,Urban,Southeast,Richest,Other/Missing
+385012,Urban,Southeast,Richest,Kinh and Hoa
 385013,Urban,Southeast,Richest,Kinh and Hoa
 385014,Urban,Southeast,Fourth,Kinh and Hoa
 385015,Urban,Southeast,Richest,Kinh and Hoa
 385016,Urban,Southeast,Richest,Kinh and Hoa
 385017,Urban,Southeast,Richest,Kinh and Hoa
-385018,Urban,Southeast,Richest,Other/Missing
-385019,Urban,Southeast,Richest,Other/Missing
+385018,Urban,Southeast,Richest,Kinh and Hoa
+385019,Urban,Southeast,Richest,Kinh and Hoa
 385020,Urban,Southeast,Richest,Kinh and Hoa
 386001,Urban,Southeast,Fourth,Kinh and Hoa
 386002,Urban,Southeast,Second,Kinh and Hoa
@@ -7782,7 +7782,7 @@ HHID,residence,region,wealth_q,eth_hoh
 390001,Urban,Southeast,Richest,Kinh and Hoa
 390002,Urban,Southeast,Middle,Kinh and Hoa
 390003,Urban,Southeast,Richest,Kinh and Hoa
-390004,Urban,Southeast,Richest,Other/Missing
+390004,Urban,Southeast,Richest,Kinh and Hoa
 390005,Urban,Southeast,Fourth,Kinh and Hoa
 390006,Urban,Southeast,Fourth,Kinh and Hoa
 390007,Urban,Southeast,Richest,Kinh and Hoa
@@ -7793,7 +7793,7 @@ HHID,residence,region,wealth_q,eth_hoh
 390012,Urban,Southeast,Richest,Kinh and Hoa
 390013,Urban,Southeast,Richest,Kinh and Hoa
 390014,Urban,Southeast,Richest,Kinh and Hoa
-390015,Urban,Southeast,Richest,Other/Missing
+390015,Urban,Southeast,Richest,Kinh and Hoa
 390016,Urban,Southeast,Richest,Kinh and Hoa
 390017,Urban,Southeast,Richest,Kinh and Hoa
 390018,Urban,Southeast,Richest,Kinh and Hoa
@@ -7868,7 +7868,7 @@ HHID,residence,region,wealth_q,eth_hoh
 394007,Urban,Southeast,Richest,Kinh and Hoa
 394008,Urban,Southeast,Fourth,Kinh and Hoa
 394009,Urban,Southeast,Fourth,Kinh and Hoa
-394010,Urban,Southeast,Fourth,Other/Missing
+394010,Urban,Southeast,Fourth,Kinh and Hoa
 394011,Urban,Southeast,Fourth,Kinh and Hoa
 394012,Urban,Southeast,Fourth,Kinh and Hoa
 394013,Urban,Southeast,Richest,Kinh and Hoa
@@ -7926,7 +7926,7 @@ HHID,residence,region,wealth_q,eth_hoh
 397005,Urban,Southeast,Richest,Kinh and Hoa
 397006,Urban,Southeast,Richest,Kinh and Hoa
 397007,Urban,Southeast,Richest,Kinh and Hoa
-397008,Urban,Southeast,Fourth,Other/Missing
+397008,Urban,Southeast,Fourth,Kinh and Hoa
 397009,Urban,Southeast,Fourth,Kinh and Hoa
 397010,Urban,Southeast,Richest,Kinh and Hoa
 397011,Urban,Southeast,Richest,Kinh and Hoa
@@ -7971,7 +7971,7 @@ HHID,residence,region,wealth_q,eth_hoh
 399010,Urban,Southeast,Richest,Kinh and Hoa
 399011,Urban,Southeast,Richest,Kinh and Hoa
 399012,Urban,Southeast,Richest,Kinh and Hoa
-399013,Urban,Southeast,Second,Other/Missing
+399013,Urban,Southeast,Second,Kinh and Hoa
 399014,Urban,Southeast,Fourth,Kinh and Hoa
 399015,Urban,Southeast,Fourth,Kinh and Hoa
 399016,Urban,Southeast,Richest,Kinh and Hoa
@@ -8022,11 +8022,11 @@ HHID,residence,region,wealth_q,eth_hoh
 402001,Urban,Southeast,Fourth,Kinh and Hoa
 402002,Urban,Southeast,Richest,Kinh and Hoa
 402003,Urban,Southeast,Richest,Kinh and Hoa
-402004,Urban,Southeast,Fourth,Other/Missing
+402004,Urban,Southeast,Fourth,Kinh and Hoa
 402005,Urban,Southeast,Richest,Kinh and Hoa
 402006,Urban,Southeast,Richest,Kinh and Hoa
 402007,Urban,Southeast,Richest,Kinh and Hoa
-402008,Urban,Southeast,Second,Other/Missing
+402008,Urban,Southeast,Second,Kinh and Hoa
 402009,Urban,Southeast,Richest,Kinh and Hoa
 402010,Urban,Southeast,Richest,Kinh and Hoa
 402011,Urban,Southeast,Richest,Kinh and Hoa
@@ -8034,7 +8034,7 @@ HHID,residence,region,wealth_q,eth_hoh
 402013,Urban,Southeast,Middle,Kinh and Hoa
 402014,Urban,Southeast,Fourth,Kinh and Hoa
 402015,Urban,Southeast,Richest,Kinh and Hoa
-402016,Urban,Southeast,Fourth,Other/Missing
+402016,Urban,Southeast,Fourth,Kinh and Hoa
 402017,Urban,Southeast,Richest,Kinh and Hoa
 402018,Urban,Southeast,0.0,
 402019,Urban,Southeast,Richest,Kinh and Hoa
@@ -8139,23 +8139,23 @@ HHID,residence,region,wealth_q,eth_hoh
 407018,Urban,Southeast,Richest,Kinh and Hoa
 407019,Urban,Southeast,Fourth,Kinh and Hoa
 407020,Urban,Southeast,Richest,Kinh and Hoa
-408001,Urban,Southeast,Richest,Other/Missing
+408001,Urban,Southeast,Richest,Kinh and Hoa
 408002,Urban,Southeast,Fourth,Kinh and Hoa
 408003,Urban,Southeast,Richest,Kinh and Hoa
 408004,Urban,Southeast,Richest,Kinh and Hoa
-408005,Urban,Southeast,Richest,Other/Missing
+408005,Urban,Southeast,Richest,Kinh and Hoa
 408006,Urban,Southeast,Fourth,Kinh and Hoa
-408007,Urban,Southeast,Middle,Other/Missing
+408007,Urban,Southeast,Middle,Kinh and Hoa
 408008,Urban,Southeast,Middle,Kinh and Hoa
 408009,Urban,Southeast,Richest,Kinh and Hoa
-408010,Urban,Southeast,Richest,Other/Missing
+408010,Urban,Southeast,Richest,Kinh and Hoa
 408011,Urban,Southeast,Middle,Kinh and Hoa
 408012,Urban,Southeast,Second,Kinh and Hoa
 408013,Urban,Southeast,Richest,Kinh and Hoa
 408014,Urban,Southeast,Richest,Kinh and Hoa
 408015,Urban,Southeast,Richest,Kinh and Hoa
 408016,Urban,Southeast,Richest,Kinh and Hoa
-408017,Urban,Southeast,Fourth,Other/Missing
+408017,Urban,Southeast,Fourth,Kinh and Hoa
 408018,Urban,Southeast,Richest,Kinh and Hoa
 408019,Urban,Southeast,Richest,Kinh and Hoa
 408020,Urban,Southeast,Richest,Kinh and Hoa
@@ -8208,7 +8208,7 @@ HHID,residence,region,wealth_q,eth_hoh
 411007,Urban,Southeast,Fourth,Kinh and Hoa
 411008,Urban,Southeast,Fourth,Kinh and Hoa
 411009,Urban,Southeast,Richest,Kinh and Hoa
-411010,Urban,Southeast,Middle,Other/Missing
+411010,Urban,Southeast,Middle,Kinh and Hoa
 411011,Urban,Southeast,Second,Kinh and Hoa
 411012,Urban,Southeast,Richest,Kinh and Hoa
 411013,Urban,Southeast,Fourth,Kinh and Hoa
@@ -8219,23 +8219,23 @@ HHID,residence,region,wealth_q,eth_hoh
 411018,Urban,Southeast,Richest,Kinh and Hoa
 411019,Urban,Southeast,Fourth,Kinh and Hoa
 411020,Urban,Southeast,Fourth,Kinh and Hoa
-412001,Urban,Southeast,Richest,Other/Missing
-412002,Urban,Southeast,Fourth,Other/Missing
+412001,Urban,Southeast,Richest,Kinh and Hoa
+412002,Urban,Southeast,Fourth,Kinh and Hoa
 412003,Urban,Southeast,Richest,Kinh and Hoa
 412004,Urban,Southeast,0.0,
-412005,Urban,Southeast,Middle,Other/Missing
-412006,Urban,Southeast,Fourth,Other/Missing
-412007,Urban,Southeast,Richest,Other/Missing
-412008,Urban,Southeast,Fourth,Other/Missing
-412009,Urban,Southeast,Richest,Other/Missing
-412010,Urban,Southeast,Richest,Other/Missing
+412005,Urban,Southeast,Middle,Kinh and Hoa
+412006,Urban,Southeast,Fourth,Kinh and Hoa
+412007,Urban,Southeast,Richest,Kinh and Hoa
+412008,Urban,Southeast,Fourth,Kinh and Hoa
+412009,Urban,Southeast,Richest,Kinh and Hoa
+412010,Urban,Southeast,Richest,Kinh and Hoa
 412011,Urban,Southeast,Fourth,Kinh and Hoa
-412012,Urban,Southeast,Fourth,Other/Missing
-412013,Urban,Southeast,Fourth,Other/Missing
-412014,Urban,Southeast,Fourth,Other/Missing
+412012,Urban,Southeast,Fourth,Kinh and Hoa
+412013,Urban,Southeast,Fourth,Kinh and Hoa
+412014,Urban,Southeast,Fourth,Kinh and Hoa
 412015,Urban,Southeast,Fourth,Kinh and Hoa
 412016,Urban,Southeast,Fourth,Kinh and Hoa
-412017,Urban,Southeast,Fourth,Other/Missing
+412017,Urban,Southeast,Fourth,Kinh and Hoa
 412018,Urban,Southeast,Fourth,Kinh and Hoa
 412019,Urban,Southeast,Richest,Kinh and Hoa
 412020,Urban,Southeast,Fourth,Kinh and Hoa
@@ -8262,14 +8262,14 @@ HHID,residence,region,wealth_q,eth_hoh
 414001,Urban,Southeast,Richest,Kinh and Hoa
 414002,Urban,Southeast,Fourth,Kinh and Hoa
 414003,Urban,Southeast,Middle,Kinh and Hoa
-414004,Urban,Southeast,Fourth,Other/Missing
+414004,Urban,Southeast,Fourth,Kinh and Hoa
 414005,Urban,Southeast,Richest,Kinh and Hoa
 414006,Urban,Southeast,Fourth,Kinh and Hoa
-414007,Urban,Southeast,Richest,Other/Missing
+414007,Urban,Southeast,Richest,Kinh and Hoa
 414008,Urban,Southeast,Fourth,Kinh and Hoa
 414009,Urban,Southeast,Richest,Kinh and Hoa
 414010,Urban,Southeast,Fourth,Kinh and Hoa
-414011,Urban,Southeast,Richest,Other/Missing
+414011,Urban,Southeast,Richest,Kinh and Hoa
 414012,Urban,Southeast,Richest,Kinh and Hoa
 414013,Urban,Southeast,Richest,Kinh and Hoa
 414014,Urban,Southeast,Fourth,Kinh and Hoa
@@ -8292,11 +8292,11 @@ HHID,residence,region,wealth_q,eth_hoh
 415011,Urban,Southeast,Richest,Kinh and Hoa
 415012,Urban,Southeast,Fourth,Kinh and Hoa
 415013,Urban,Southeast,Fourth,Kinh and Hoa
-415014,Urban,Southeast,Richest,Other/Missing
+415014,Urban,Southeast,Richest,Kinh and Hoa
 415015,Urban,Southeast,Fourth,Kinh and Hoa
 415016,Urban,Southeast,Richest,Kinh and Hoa
 415017,Urban,Southeast,Fourth,Kinh and Hoa
-415018,Urban,Southeast,Fourth,Other/Missing
+415018,Urban,Southeast,Fourth,Kinh and Hoa
 415019,Urban,Southeast,Richest,Kinh and Hoa
 415020,Urban,Southeast,Middle,Kinh and Hoa
 416001,Urban,Southeast,Fourth,Kinh and Hoa
@@ -8418,7 +8418,7 @@ HHID,residence,region,wealth_q,eth_hoh
 421017,Rural,Southeast,Richest,Kinh and Hoa
 421018,Rural,Southeast,Middle,Kinh and Hoa
 421019,Rural,Southeast,Fourth,Kinh and Hoa
-421020,Rural,Southeast,Richest,Other/Missing
+421020,Rural,Southeast,Richest,Kinh and Hoa
 422001,Rural,Southeast,Fourth,Kinh and Hoa
 422002,Rural,Southeast,Richest,Kinh and Hoa
 422003,Rural,Southeast,Middle,Kinh and Hoa
@@ -8438,7 +8438,7 @@ HHID,residence,region,wealth_q,eth_hoh
 422017,Rural,Southeast,Fourth,Kinh and Hoa
 422018,Rural,Southeast,Richest,Kinh and Hoa
 422019,Rural,Southeast,Fourth,Kinh and Hoa
-422020,Rural,Southeast,Fourth,Other/Missing
+422020,Rural,Southeast,Fourth,Kinh and Hoa
 423001,Rural,Southeast,Fourth,Kinh and Hoa
 423002,Rural,Southeast,Fourth,Kinh and Hoa
 423003,Rural,Southeast,Middle,Kinh and Hoa
@@ -8841,7 +8841,7 @@ HHID,residence,region,wealth_q,eth_hoh
 442020,Rural,Mekong River Delta,Middle,Kinh and Hoa
 443001,Urban,Mekong River Delta,Fourth,Kinh and Hoa
 443002,Urban,Mekong River Delta,Fourth,Kinh and Hoa
-443003,Urban,Mekong River Delta,Fourth,Other/Missing
+443003,Urban,Mekong River Delta,Fourth,Kinh and Hoa
 443004,Urban,Mekong River Delta,Fourth,Kinh and Hoa
 443005,Urban,Mekong River Delta,Richest,Kinh and Hoa
 443006,Urban,Mekong River Delta,Fourth,Kinh and Hoa
@@ -8856,8 +8856,8 @@ HHID,residence,region,wealth_q,eth_hoh
 443015,Urban,Mekong River Delta,Middle,Kinh and Hoa
 443016,Urban,Mekong River Delta,Fourth,Kinh and Hoa
 443017,Urban,Mekong River Delta,Fourth,Kinh and Hoa
-443018,Urban,Mekong River Delta,Fourth,Other/Missing
-443019,Urban,Mekong River Delta,Richest,Other/Missing
+443018,Urban,Mekong River Delta,Fourth,Kinh and Hoa
+443019,Urban,Mekong River Delta,Richest,Kinh and Hoa
 443020,Urban,Mekong River Delta,Fourth,Kinh and Hoa
 444001,Rural,Mekong River Delta,Fourth,Kinh and Hoa
 444002,Rural,Mekong River Delta,Poorest,Kinh and Hoa
@@ -8960,7 +8960,7 @@ HHID,residence,region,wealth_q,eth_hoh
 448019,Urban,Mekong River Delta,Second,Kinh and Hoa
 448020,Urban,Mekong River Delta,Middle,Kinh and Hoa
 449001,Rural,Mekong River Delta,Poorest,Kinh and Hoa
-449002,Rural,Mekong River Delta,Poorest,Other/Missing
+449002,Rural,Mekong River Delta,Poorest,Kinh and Hoa
 449003,Rural,Mekong River Delta,Poorest,Khmer
 449004,Rural,Mekong River Delta,Poorest,Khmer
 449005,Rural,Mekong River Delta,Poorest,Kinh and Hoa
@@ -9501,7 +9501,7 @@ HHID,residence,region,wealth_q,eth_hoh
 475020,Rural,Mekong River Delta,0.0,
 476001,Urban,Mekong River Delta,Fourth,Khmer
 476002,Urban,Mekong River Delta,Middle,Kinh and Hoa
-476003,Urban,Mekong River Delta,Fourth,Other/Missing
+476003,Urban,Mekong River Delta,Fourth,Kinh and Hoa
 476004,Urban,Mekong River Delta,Fourth,Kinh and Hoa
 476005,Urban,Mekong River Delta,Fourth,Kinh and Hoa
 476006,Urban,Mekong River Delta,Fourth,Kinh and Hoa
@@ -9515,7 +9515,7 @@ HHID,residence,region,wealth_q,eth_hoh
 476014,Urban,Mekong River Delta,Second,Kinh and Hoa
 476015,Urban,Mekong River Delta,Second,Kinh and Hoa
 476016,Urban,Mekong River Delta,Fourth,Kinh and Hoa
-476017,Urban,Mekong River Delta,Fourth,Other/Missing
+476017,Urban,Mekong River Delta,Fourth,Kinh and Hoa
 476018,Urban,Mekong River Delta,Poorest,Kinh and Hoa
 476019,Urban,Mekong River Delta,Second,Kinh and Hoa
 476020,Urban,Mekong River Delta,Middle,Khmer
@@ -9621,7 +9621,7 @@ HHID,residence,region,wealth_q,eth_hoh
 481020,Rural,Mekong River Delta,Poorest,Kinh and Hoa
 482001,Urban,Mekong River Delta,Second,Kinh and Hoa
 482002,Urban,Mekong River Delta,Middle,Khmer
-482003,Urban,Mekong River Delta,Second,Other/Missing
+482003,Urban,Mekong River Delta,Second,Kinh and Hoa
 482004,Urban,Mekong River Delta,Fourth,Khmer
 482005,Urban,Mekong River Delta,Middle,Kinh and Hoa
 482006,Urban,Mekong River Delta,Fourth,Kinh and Hoa
@@ -9718,7 +9718,7 @@ HHID,residence,region,wealth_q,eth_hoh
 486017,Urban,Mekong River Delta,Fourth,Kinh and Hoa
 486018,Urban,Mekong River Delta,Richest,Kinh and Hoa
 486019,Urban,Mekong River Delta,Richest,Kinh and Hoa
-486020,Urban,Mekong River Delta,Richest,Other/Missing
+486020,Urban,Mekong River Delta,Richest,Kinh and Hoa
 487001,Urban,Mekong River Delta,Poorest,Kinh and Hoa
 487002,Urban,Mekong River Delta,Second,Khmer
 487003,Urban,Mekong River Delta,Poorest,Kinh and Hoa
@@ -9749,7 +9749,7 @@ HHID,residence,region,wealth_q,eth_hoh
 488008,Urban,Mekong River Delta,Fourth,Kinh and Hoa
 488009,Urban,Mekong River Delta,Middle,Kinh and Hoa
 488010,Urban,Mekong River Delta,Richest,Kinh and Hoa
-488011,Urban,Mekong River Delta,Richest,Other/Missing
+488011,Urban,Mekong River Delta,Richest,Kinh and Hoa
 488012,Urban,Mekong River Delta,Richest,Kinh and Hoa
 488013,Urban,Mekong River Delta,Richest,Kinh and Hoa
 488014,Urban,Mekong River Delta,Richest,Kinh and Hoa
@@ -9865,7 +9865,7 @@ HHID,residence,region,wealth_q,eth_hoh
 494004,Urban,Mekong River Delta,Richest,Kinh and Hoa
 494005,Urban,Mekong River Delta,Richest,Kinh and Hoa
 494006,Urban,Mekong River Delta,Richest,Kinh and Hoa
-494007,Urban,Mekong River Delta,Second,Other/Missing
+494007,Urban,Mekong River Delta,Second,Kinh and Hoa
 494008,Urban,Mekong River Delta,Second,Kinh and Hoa
 494009,Urban,Mekong River Delta,Fourth,Kinh and Hoa
 494010,Urban,Mekong River Delta,Richest,Kinh and Hoa
@@ -9902,23 +9902,23 @@ HHID,residence,region,wealth_q,eth_hoh
 496001,Urban,Mekong River Delta,Fourth,Kinh and Hoa
 496002,Urban,Mekong River Delta,Fourth,Kinh and Hoa
 496003,Urban,Mekong River Delta,Richest,Kinh and Hoa
-496004,Urban,Mekong River Delta,Richest,Other/Missing
-496005,Urban,Mekong River Delta,Richest,Other/Missing
-496006,Urban,Mekong River Delta,Richest,Other/Missing
-496007,Urban,Mekong River Delta,Second,Other/Missing
+496004,Urban,Mekong River Delta,Richest,Kinh and Hoa
+496005,Urban,Mekong River Delta,Richest,Kinh and Hoa
+496006,Urban,Mekong River Delta,Richest,Kinh and Hoa
+496007,Urban,Mekong River Delta,Second,Kinh and Hoa
 496008,Urban,Mekong River Delta,Poorest,Kinh and Hoa
-496009,Urban,Mekong River Delta,Fourth,Other/Missing
-496010,Urban,Mekong River Delta,Middle,Other/Missing
+496009,Urban,Mekong River Delta,Fourth,Kinh and Hoa
+496010,Urban,Mekong River Delta,Middle,Kinh and Hoa
 496011,Urban,Mekong River Delta,Fourth,Kinh and Hoa
 496012,Urban,Mekong River Delta,Middle,Kinh and Hoa
-496013,Urban,Mekong River Delta,Fourth,Other/Missing
+496013,Urban,Mekong River Delta,Fourth,Kinh and Hoa
 496014,Urban,Mekong River Delta,Richest,Khmer
 496015,Urban,Mekong River Delta,Middle,Kinh and Hoa
-496016,Urban,Mekong River Delta,Second,Other/Missing
+496016,Urban,Mekong River Delta,Second,Kinh and Hoa
 496017,Urban,Mekong River Delta,Richest,Kinh and Hoa
-496018,Urban,Mekong River Delta,Fourth,Other/Missing
+496018,Urban,Mekong River Delta,Fourth,Kinh and Hoa
 496019,Urban,Mekong River Delta,Middle,Kinh and Hoa
-496020,Urban,Mekong River Delta,Fourth,Other/Missing
+496020,Urban,Mekong River Delta,Fourth,Kinh and Hoa
 497001,Rural,Mekong River Delta,Fourth,Kinh and Hoa
 497002,Rural,Mekong River Delta,Fourth,Kinh and Hoa
 497003,Rural,Mekong River Delta,Richest,Kinh and Hoa
@@ -9986,7 +9986,7 @@ HHID,residence,region,wealth_q,eth_hoh
 500005,Urban,Mekong River Delta,Middle,Khmer
 500006,Urban,Mekong River Delta,Second,Khmer
 500007,Urban,Mekong River Delta,Poorest,Khmer
-500008,Urban,Mekong River Delta,Second,Other/Missing
+500008,Urban,Mekong River Delta,Second,Kinh and Hoa
 500009,Urban,Mekong River Delta,Poorest,Khmer
 500010,Urban,Mekong River Delta,Poorest,Khmer
 500011,Urban,Mekong River Delta,Fourth,Khmer
@@ -10000,25 +10000,25 @@ HHID,residence,region,wealth_q,eth_hoh
 500019,Urban,Mekong River Delta,Middle,Kinh and Hoa
 500020,Urban,Mekong River Delta,Middle,Khmer
 501001,Rural,Mekong River Delta,Poorest,Khmer
-501002,Rural,Mekong River Delta,Poorest,Other/Missing
-501003,Rural,Mekong River Delta,Poorest,Other/Missing
+501002,Rural,Mekong River Delta,Poorest,Kinh and Hoa
+501003,Rural,Mekong River Delta,Poorest,Kinh and Hoa
 501004,Rural,Mekong River Delta,Poorest,Khmer
-501005,Rural,Mekong River Delta,Poorest,Other/Missing
-501006,Rural,Mekong River Delta,Second,Other/Missing
-501007,Rural,Mekong River Delta,Middle,Other/Missing
-501008,Rural,Mekong River Delta,Poorest,Other/Missing
-501009,Rural,Mekong River Delta,Poorest,Other/Missing
-501010,Rural,Mekong River Delta,Fourth,Other/Missing
-501011,Rural,Mekong River Delta,Second,Other/Missing
+501005,Rural,Mekong River Delta,Poorest,Kinh and Hoa
+501006,Rural,Mekong River Delta,Second,Kinh and Hoa
+501007,Rural,Mekong River Delta,Middle,Kinh and Hoa
+501008,Rural,Mekong River Delta,Poorest,Kinh and Hoa
+501009,Rural,Mekong River Delta,Poorest,Kinh and Hoa
+501010,Rural,Mekong River Delta,Fourth,Kinh and Hoa
+501011,Rural,Mekong River Delta,Second,Kinh and Hoa
 501012,Rural,Mekong River Delta,Second,Kinh and Hoa
 501013,Rural,Mekong River Delta,Poorest,Kinh and Hoa
 501014,Rural,Mekong River Delta,Middle,Kinh and Hoa
-501015,Rural,Mekong River Delta,Middle,Other/Missing
-501016,Rural,Mekong River Delta,Fourth,Other/Missing
+501015,Rural,Mekong River Delta,Middle,Kinh and Hoa
+501016,Rural,Mekong River Delta,Fourth,Kinh and Hoa
 501017,Rural,Mekong River Delta,Middle,Kinh and Hoa
-501018,Rural,Mekong River Delta,Second,Other/Missing
+501018,Rural,Mekong River Delta,Second,Kinh and Hoa
 501019,Rural,Mekong River Delta,Poorest,Khmer
-501020,Rural,Mekong River Delta,Poorest,Other/Missing
+501020,Rural,Mekong River Delta,Poorest,Kinh and Hoa
 502001,Urban,Mekong River Delta,Poorest,Kinh and Hoa
 502002,Urban,Mekong River Delta,Poorest,Kinh and Hoa
 502003,Urban,Mekong River Delta,Second,Kinh and Hoa
@@ -10088,7 +10088,7 @@ HHID,residence,region,wealth_q,eth_hoh
 505007,Urban,Mekong River Delta,Fourth,Kinh and Hoa
 505008,Urban,Mekong River Delta,Middle,Kinh and Hoa
 505009,Urban,Mekong River Delta,Fourth,Kinh and Hoa
-505010,Urban,Mekong River Delta,Richest,Other/Missing
+505010,Urban,Mekong River Delta,Richest,Kinh and Hoa
 505011,Urban,Mekong River Delta,Middle,Kinh and Hoa
 505012,Urban,Mekong River Delta,Middle,Kinh and Hoa
 505013,Urban,Mekong River Delta,Poorest,Kinh and Hoa

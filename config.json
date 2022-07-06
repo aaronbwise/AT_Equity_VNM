@@ -144,7 +144,7 @@
                             "Muong": "Tay, Thai, Muong, Nung",
                             "E de": "Other/Missing",
                             "Ba na": "Other/Missing",
-                            "Chinese": "Other/Missing",
+                            "Chinese": "Kinh and Hoa",
                             "Gia Rai": "Other/Missing",
                             "Khmer": "Khmer",
                             "Mong": "Mong"
@@ -235,8 +235,15 @@
                         },
                         "replace": {
                             "Kinh": "Kinh and Hoa",
-                            "Non-Kinh": "Tay, Thai, Muong, Nung",
-                            "Missing/DK": "Other/Missing"
+                            "Other ethnic group": "Other/Missing",
+                            "Tay": "Tay, Thai, Muong, Nung",
+                            "NaN": "Other/Missing",
+                            "Nung":"Tay, Thai, Muong, Nung",
+                            "Thai":"Tay, Thai, Muong, Nung",
+                            "Khmer": "Khmer",
+                            "Chinese": "Kinh and Hoa",
+                            "Hmong": "Mong",
+                            "Muong":"Tay, Thai, Muong, Nung"
                         }
                     } 
                 },
@@ -278,6 +285,209 @@
                     "filename": {
                         "hh": "VNM_2011_household_merge.csv",
                         "hl": "VNM_2011_listing_merge.csv"
+                    }
+                }
+            },
+            "2006": {
+                "household": {
+                    "filename": "hh_2006.sav",
+                    "cluster_id": "hh1",
+                    "household_id": "hh2",
+                    "residence": {
+                        "col_name": "hh6",
+                        "rename": {
+                            "hh6": "residence"
+                        },
+                        "replace": {
+                            "URBAN": "Urban",
+                            "RURAL": "Rural"
+                        }
+                    },
+                    "region": {
+                        "col_name": "hh7",
+                        "rename": {
+                            "hh7": "region"
+                        },
+                        "replace": {
+                            "South East": "Southeast",
+                            "Red River Delta": "Red River Delta",
+                            "Northen Midlands and Mountain area": "Northern Midlands and Mountain",
+                            "Mekong River Delta": "Mekong River Delta",
+                            "North Central and Central Coastal area": "North Central and Central Coastal",
+                            "Central Highlands": "Central Highlands"
+                        }
+                    },
+                    "wealth": {
+                        "col_name": "wlthind5",
+                        "rename": {
+                            "wlthind5": "wealth_q"
+                        },
+                        "replace": null
+                    },
+                    "eth_hoh": {
+                        "col_name": "ethnic",
+                        "rename": {
+                            "ethnic": "eth_hoh"
+                        },
+                        "replace": {
+                            "Kinh": "Kinh and Hoa",
+                            "Muong": "Tay, Thai, Muong, Nung",
+                            "Thai":"Tay, Thai, Muong, Nung",
+                            "Tay":"Tay, Thai, Muong, Nung",
+                            "H Mong": "Mong",
+                            "Nung":"Tay, Thai, Muong, Nung",
+                            "Dao": "Other/Missing",
+                            "Gia-Rai": "Other/Missing",
+                            "Hoa": "Kinh and Hoa",
+                            "BaNa": "Other/Missing",
+                            "Kho Me": "Other/Missing",
+                            "Cham": "Other/Missing",
+                            "Hre": "Other/Missing",
+                            "Xo Dang": "Other/Missing",
+                            "Ede": "Other/Missing",
+                            "Khang": "Other/Missing",
+                            "Bru": "Other/Missing",
+                            "Ma": "Other/Missing",
+                            "San Chay": "Other/Missing",
+                            "San Diu": "Other/Missing",
+                            "MNong": "Other/Missing"
+                        }
+                    } 
+                },
+                "listing": {
+                    "filename": "hl_2006.sav",
+                    "cluster_id": "hh1",
+                    "household_id": "hh2",
+                    "relationship_hoh": {
+                        "col_name": "hl3",
+                        "value": "Head"
+                    },
+                    "sex_hoh": {
+                        "col_name": "hl4",
+                        "rename": {
+                            "hl4": "sex_hoh"
+                        },
+                        "replace": null
+                    },
+                    "elderly_hoh": {
+                        "col_name": "hl5",
+                        "rename": {
+                            "hl5": "elderly_hoh"
+                        },
+                        "replace": null
+                    }
+                },
+                "women": {
+                    "filename": "wm_2006.sav",
+                    "cluster_id": "hh1",
+                    "household_id": "hh2",
+                    "weight": ["wmweight"]
+                },
+                "children": {
+                    "filename": "ch_2006.sav",
+                    "cluster_id": "hh1",
+                    "household_id": "hh2"
+                },
+                "merge": {
+                    "filename": {
+                        "hh": "VNM_2006_household_merge.csv",
+                        "hl": "VNM_2006_listing_merge.csv"
+                    }
+                }
+            },
+            "2000": {
+                "household": {
+                    "filename": "hh_2000.sav",
+                    "cluster_id": "cluster_id",
+                    "household_id": "HID",
+                    "residence": {
+                        "col_name": "HI6",
+                        "rename": {
+                            "HI6": "residence"
+                        },
+                        "replace": {
+                            "URBAN": "Urban",
+                            "RURAL": "Rural"
+                        }
+                    },
+                    "region": {
+                        "col_name": "HI7A",
+                        "rename": {
+                            "HI7A": "region"
+                        },
+                        "replace": {
+                            "South East": "Southeast",
+                            "Red River Delta": "Red River Delta",
+                            "Northen Midlands and Mountain area": "Northern Midlands and Mountain",
+                            "Mekong River Delta": "Mekong River Delta",
+                            "North Central and Central Coastal area": "North Central and Central Coastal",
+                            "Central Highlands": "Central Highlands"
+                        }
+                    },
+                    "wealth": {
+                        "col_name": "WLTHIND5",
+                        "rename": {
+                            "WLTHIND5": "wealth_q"
+                        },
+                        "replace": null
+                    },
+                    "eth_hoh": {
+                        "col_name": "MHI1",
+                        "rename": {
+                            "MHI1": "eth_hoh"
+                        },
+                        "replace": {
+                            "Kinh": "Kinh and Hoa",
+                            "Muong": "Tay, Thai, Muong, Nung",
+                            "Thai":"Tay, Thai, Muong, Nung",
+                            "Khac":"Other/Missing",
+                            "H'mong": "Mong",
+                            "Tay":"Tay, Thai, Muong, Nung",
+                            "Nung": "Tay, Thai, Muong, Nung",
+                            "Dao": "Other/Missing",
+                            "Hoa":"Kinh and Hoa",
+                            "Kho me": "Other/Missing"
+                        }
+                    } 
+                },
+                "listing": {
+                    "filename": "hl_2000.sav",
+                    "cluster_id": "",
+                    "household_id": "HID",
+                    "relationship_hoh": {
+                        "col_name": "hl3",
+                        "value": "Head"
+                    },
+                    "sex_hoh": {
+                        "col_name": "hl4",
+                        "rename": {
+                            "hl4": "sex_hoh"
+                        },
+                        "replace": null
+                    },
+                    "elderly_hoh": {
+                        "col_name": "hl5",
+                        "rename": {
+                            "hl5": "elderly_hoh"
+                        },
+                        "replace": null
+                    }
+                },
+                "women": {
+                    "filename": "wm_2000.sav",
+                    "cluster_id": "hh1",
+                    "household_id": "hh2",
+                    "weight": ["wmweight"]
+                },
+                "children": {
+                    "filename": "ch_2000.sav",
+                    "cluster_id": "hh1",
+                    "household_id": "hh2"
+                },
+                "merge": {
+                    "filename": {
+                        "hh": "VNM_2000_household_merge.csv",
+                        "hl": "VNM_2000_listing_merge.csv"
                     }
                 }
             }
