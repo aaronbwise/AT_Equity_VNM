@@ -52,10 +52,11 @@
         }
       },
       "low_bw": {
-        "col_names": ["MN34"],
-        "dtype": "num_categorical",
-        "convert_values": {
-          "DK": "NaN"
+        "birth_size":{
+            "col_names": ["MN32"]
+        },
+        "birth_weight": {
+            "col_names": ["MN34"]
         }
       },
       "early_bf": {
@@ -145,10 +146,11 @@
         }
       },
       "low_bw": {
-        "col_names": ["MN22"],
-        "dtype": "num_categorical",
-        "convert_values": {
-          "DK": "NaN"
+        "birth_size":{
+            "col_names": ["MN20"]
+        },
+        "birth_weight": {
+            "col_names": ["MN22"]
         }
       },
       "early_bf": {
@@ -237,12 +239,13 @@
           }
         },
         "low_bw": {
-          "col_names": ["MN22"],
-          "dtype": "num_categorical",
-          "convert_values": {
-            "DK": "NaN"
-          }
-        },
+            "birth_size":{
+                "col_names": ["MN20"]
+            },
+            "birth_weight": {
+                "col_names": ["MN22"]
+            }
+          },
         "early_bf": {
           "time_cat": {
             "col_names": ["MN25U"],
@@ -324,12 +327,13 @@
           }
         },
         "low_bw": {
-          "col_names": ["MN22"],
-          "dtype": "num_categorical",
-          "convert_values": {
-            "DK": "NaN"
-          }
-        },
+            "birth_size":{
+                "col_names": ["mn9"]
+            },
+            "birth_weight": {
+                "col_names": ["mn11"]
+            }
+          },
         "early_bf": {
           "time_cat": {
             "col_names": ["mn13a"],
@@ -428,18 +432,18 @@
           }
         },
         "mother_edu": {
-          "col_names": ["wm11"],
+          "col_names": ["MELEVEL"],
           "values": {
-              "none_primary": ["Preschool/kindergarten", "Primary"],
-              "secondary": ["Lower secondary", "Secondary", "Long apprentice", "Short apprentice", "Non-standard curriculum"],
-              "higher": ["Higher"],
-              "missing": ["NaN"]
+              "none_primary": ["None", "primaire"],
+              "secondary": ["Lower secondary", "Upper secondary", "Tech voc. training", "Non standard"],
+              "higher": ["College univerty or higher"],
+              "missing": ["Don't know"]
           }
         },
         "women_file_subset": {
           "col_names": {
-              "quest_complete": ["hh9"],
-              "birth_2_years": ["cm12"]
+              "quest_complete": ["HI10"],
+              "birth_2_years": ["CM11X"]
           },
           "values": {
               "quest_complete": ["Completed"],

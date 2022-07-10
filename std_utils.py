@@ -124,12 +124,14 @@ def merge_hh_hl_data(df, country, year):
     return df
 
 
-def subset_df(df, country, year, recode, var_subset):
+def subset_hl_df(df, country, year, recode, var_subset):
     """
     For use on HL file.
 
-    Function which subsets the dataframe on variable of interested.
+    Function which subsets the dataframe on variable of interest.
     """
+
+    df = update_hl_variables(df, year)
 
     subset_col_name = config_data["survey_dict"][country][year][recode][var_subset]["col_name"]
 
@@ -241,6 +243,17 @@ def update_hhid_variables(df, year):
 
         df["cluster_id"] = ""
 
+    else:
+        pass
+
+    return df
+
+def update_hl_variables(df, year):
+    
+    if year == '2000':
+        
+        df["relationship_hoh"] = np.where(df['HL1'] == 1, 'Head', "Other")
+    
     else:
         pass
 

@@ -26,7 +26,7 @@
                             "RED RIVER DELTA": "Red River Delta",
                             "NORTHERN MIDLANDS AND MOUNTAIN": "Northern Midlands and Mountain",
                             "MEKONG RIVER DELTA": "Mekong River Delta",
-                            "NORTH CENTRAL AND CENTRAL COASTAL": "North Central and Central Coastal",
+                            "NORTH CENTRAL AND CENTRAL COASTAL": "North Central and Central Coast",
                             "CENTRAL HIGHLANDS": "Central Highlands"
                         }
                     },
@@ -35,7 +35,13 @@
                         "rename": {
                             "windex5": "wealth_q"
                         },
-                        "replace": null
+                        "replace": {
+                            "Poorest": "Poorest",
+                            "Poor": "Poor",
+                            "Middle": "Middle",
+                            "Rich": "Rich",
+                            "Richest": "Richest"
+                        }
                     },
                     "eth_hoh": {
                         "col_name": "HC2",
@@ -120,7 +126,7 @@
                             "Red River Delta": "Red River Delta",
                             "Northern Midlands and Mountain area": "Northern Midlands and Mountain",
                             "Mekong River Delta": "Mekong River Delta",
-                            "North Central and Central Coastal area": "North Central and Central Coastal",
+                            "North Central and Central Coastal area": "North Central and Central Coast",
                             "Central Highlands": "Central Highlands"
                         }
                     },
@@ -129,11 +135,19 @@
                         "rename": {
                             "windex5": "wealth_q"
                         },
-                        "replace": null
+                        "replace": {
+                            "Poorest": "Poorest",
+                            "Second": "Poor",
+                            "Middle": "Middle",
+                            "Fourth": "Rich",
+                            "Richest": "Richest"
+                        }
                     },
                     "eth_hoh": {
                         "col_name": "HC1C",
-                        "rename": {"HC1C": "eth_hoh"},
+                        "rename": {
+                            "HC1C": "eth_hoh"
+                        },
                         "replace": {
                             "Kinh": "Kinh and Hoa",
                             "Other": "Other/Missing",
@@ -217,7 +231,7 @@
                             "Red River Delta": "Red River Delta",
                             "Northen Midlands and Mountain area": "Northern Midlands and Mountain",
                             "Mekong River Delta": "Mekong River Delta",
-                            "North Central and Central Coastal area": "North Central and Central Coastal",
+                            "North Central and Central Coastal area": "North Central and Central Coast",
                             "Central Highlands": "Central Highlands"
                         }
                     },
@@ -226,7 +240,13 @@
                         "rename": {
                             "windex5": "wealth_q"
                         },
-                        "replace": null
+                        "replace": {
+                            "Poorest": "Poorest",
+                            "Second": "Poor",
+                            "Middle": "Middle",
+                            "Fourth": "Rich",
+                            "Richest": "Richest"
+                        }
                     },
                     "eth_hoh": {
                         "col_name": "HC1C",
@@ -309,12 +329,14 @@
                             "hh7": "region"
                         },
                         "replace": {
+                            "Red river Delta": "Red River Delta",
+                            "Mekong river Delta": "Mekong River Delta",
+                            "South Central Coast": "North Central and Central Coast",
                             "South East": "Southeast",
-                            "Red River Delta": "Red River Delta",
-                            "Northen Midlands and Mountain area": "Northern Midlands and Mountain",
-                            "Mekong River Delta": "Mekong River Delta",
-                            "North Central and Central Coastal area": "North Central and Central Coastal",
-                            "Central Highlands": "Central Highlands"
+                            "North Central Coast": "North Central and Central Coast",
+                            "Central Highlands": "Central Highlands",
+                            "North West": "Northern Midlands and Mountain",
+                            "North East": "Northern Midlands and Mountain"
                         }
                     },
                     "wealth": {
@@ -322,7 +344,13 @@
                         "rename": {
                             "wlthind5": "wealth_q"
                         },
-                        "replace": null
+                        "replace": {
+                            "Poorest": "Poorest",
+                            "Second": "Poor",
+                            "Middle": "Middle",
+                            "Fourth": "Rich",
+                            "Richest": "Richest"
+                        }
                     },
                     "eth_hoh": {
                         "col_name": "ethnic",
@@ -411,17 +439,19 @@
                         }
                     },
                     "region": {
-                        "col_name": "HI7A",
+                        "col_name": "HI7",
                         "rename": {
-                            "HI7A": "region"
+                            "HI7": "region"
                         },
                         "replace": {
-                            "South East": "Southeast",
-                            "Red River Delta": "Red River Delta",
-                            "Northen Midlands and Mountain area": "Northern Midlands and Mountain",
-                            "Mekong River Delta": "Mekong River Delta",
-                            "North Central and Central Coastal area": "North Central and Central Coastal",
-                            "Central Highlands": "Central Highlands"
+                            "DBSCL": "Mekong River Delta",
+                            "DBSH": "Red River Delta",
+                            "DNB": "Southeast",
+                            "DHNTB": "North Central and Central Coast",
+                            "BTB": "North Central and Central Coast",
+                            "TN": "Central Highlands",
+                            "BD": "Northern Midlands and Mountain",
+                            "TB": "Northern Midlands and Mountain"
                         }
                     },
                     "wealth": {
@@ -429,7 +459,13 @@
                         "rename": {
                             "WLTHIND5": "wealth_q"
                         },
-                        "replace": null
+                        "replace": {
+                            "Poorest": "Poorest",
+                            "Second": "Poor",
+                            "Middle": "Middle",
+                            "Fourth": "Rich",
+                            "Richest": "Richest"
+                        }
                     },
                     "eth_hoh": {
                         "col_name": "MHI1",
@@ -452,37 +488,37 @@
                 },
                 "listing": {
                     "filename": "hl_2000.sav",
-                    "cluster_id": "",
+                    "cluster_id": "cluster_id",
                     "household_id": "HID",
                     "relationship_hoh": {
-                        "col_name": "hl3",
+                        "col_name": "relationship_hoh",
                         "value": "Head"
                     },
                     "sex_hoh": {
-                        "col_name": "hl4",
+                        "col_name": "HL3",
                         "rename": {
-                            "hl4": "sex_hoh"
+                            "HL3": "sex_hoh"
                         },
                         "replace": null
                     },
                     "elderly_hoh": {
-                        "col_name": "hl5",
+                        "col_name": "HL4",
                         "rename": {
-                            "hl5": "elderly_hoh"
+                            "HL4": "elderly_hoh"
                         },
                         "replace": null
                     }
                 },
                 "women": {
                     "filename": "wm_2000.sav",
-                    "cluster_id": "hh1",
-                    "household_id": "hh2",
-                    "weight": ["wmweight"]
+                    "cluster_id": "cluster_id",
+                    "household_id": "HID",
+                    "weight": ["WMWEIGHT"]
                 },
                 "children": {
                     "filename": "ch_2000.sav",
-                    "cluster_id": "hh1",
-                    "household_id": "hh2"
+                    "cluster_id": "cluster_id",
+                    "household_id": "HID"
                 },
                 "merge": {
                     "filename": {

@@ -177,6 +177,7 @@ def create_pnc_mother(df, country, year):
 
     return df
 
+
 def create_low_bw(df, country, year):
     """
     Function to create Low Birthweight [low_bw]
@@ -229,6 +230,41 @@ def create_early_bf(df, country, year):
 
     return df
 
+def create_low_bw(df, country, year):
+    """
+    Function to create Mother education [mother_edu]
+    """
+    # :: COL_NAMES
+    var_birth_size = config_data[country][year]["low_bw"]["birth_size"]["col_names"][0]
+    var_birth_weight = config_data[country][year]["low_bw"]["birth_weight"]["col_names"][0]
+
+    ## Cast categorical values with str
+    df[var_birth_weight] = df[var_birth_weight].astype(str)
+
+    ## Cast str values to float
+    df[var_birth_weight] = pd.to_numeric(df[var_birth_weight], errors="coerce")
+
+    # Identify randomly 25% of bw values = 2.5kg
+    df['adj_bw'] = (df[var_birth_weight] == 2.5).sample(frac=0.25, random_state=42)
+    df['adj_bw'].fillna(False, inplace=True)
+
+    # Reset True values to .001kg
+    df[var_birth_weight] = np.where(df['adj_bw'], 0.001, df[var_birth_weight])
+
+    # Create bw_less_25 variable
+    df['bw_less_25'] = np.where(df[var_birth_weight] < 2.5, 1, 0)
+    
+    # Create agg_value_prop_dict
+    agg_value_prop_dict = calc_low_bw_props(df, var_birth_size, 'bw_less_25')
+
+    print(f"agg_value_prop_dict is: \n {agg_value_prop_dict}")
+
+    # Create indicator
+    df['low_bw'] = [agg_value_prop_dict[x] * 100 for x in df[var_birth_size]]
+
+    return df
+
+
 def create_mother_edu(df, country, year):
     """
     Function to create Mother education [mother_edu]
@@ -268,7 +304,8 @@ def subset_women_file(df, country, year):
 
     return df
 
-## Helper functions to fix differences between survey years
+
+## --- Helper functions to fix differences between survey years
 
 def update_early_bf_variables(df, country, year):
     """
@@ -288,4 +325,15 @@ def update_early_bf_variables(df, country, year):
     return df
 
 
+def calc_low_bw_props(df, agg_value_col, group_col):
+    """
+    Calculate proportions by group for two columns
+    """
+    agg_value_list = list(df[agg_value_col].unique())
 
+    agg_value_prop_dict = {}
+
+    for agg_value in agg_value_list:
+        agg_value_prop_dict[agg_value] = (df.loc[df[agg_value_col] == agg_value][group_col].sum()) / ((df[agg_value_col] == agg_value).sum())
+
+    return agg_value_prop_dict
