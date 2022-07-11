@@ -245,7 +245,7 @@
             "birth_weight": {
                 "col_names": ["MN22"]
             }
-          },
+        },
         "early_bf": {
           "time_cat": {
             "col_names": ["MN25U"],
@@ -333,7 +333,7 @@
             "birth_weight": {
                 "col_names": ["mn11"]
             }
-          },
+        },
         "early_bf": {
           "time_cat": {
             "col_names": ["mn13a"],
@@ -366,11 +366,11 @@
     },
     "2000": {
         "anc_4_visits": {
-          "col_names": ["MN3"],
-          "dtype": "num_categorical",
+          "col_names": null,
+          "dtype": null,
           "convert_values": {
-            "DK": "NaN",
-            "Missing": "NaN"
+            "DK": null,
+            "Missing": null
           }
         },
         "anc_3_components": {
@@ -391,8 +391,8 @@
           ]
         },
         "caesarean_del": {
-          "col_names": ["MN19"],
-          "values": ["Yes"]
+          "col_names": null,
+          "values": null
         },
         "pnc_mother": {
           "sub_indicators": {
@@ -415,11 +415,12 @@
           }
         },
         "low_bw": {
-          "col_names": ["MN22"],
-          "dtype": "num_categorical",
-          "convert_values": {
-            "DK": "NaN"
-          }
+            "birth_size":{
+                "col_names": ["MN4"]
+            },
+            "birth_weight": {
+                "col_names": ["MN6"]
+            }
         },
         "early_bf": {
           "time_cat": {

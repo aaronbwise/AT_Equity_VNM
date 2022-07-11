@@ -234,6 +234,7 @@ def create_low_bw(df, country, year):
     """
     Function to create Mother education [mother_edu]
     """
+
     # :: COL_NAMES
     var_birth_size = config_data[country][year]["low_bw"]["birth_size"]["col_names"][0]
     var_birth_weight = config_data[country][year]["low_bw"]["birth_weight"]["col_names"][0]
@@ -244,18 +245,19 @@ def create_low_bw(df, country, year):
     ## Cast str values to float
     df[var_birth_weight] = pd.to_numeric(df[var_birth_weight], errors="coerce")
 
-    # Identify randomly 25% of bw values = 2.5kg
-    df['adj_bw'] = (df[var_birth_weight] == 2.5).sample(frac=0.25, random_state=42)
-    df['adj_bw'].fillna(False, inplace=True)
+    # If 2000, divide bw by 1000 (convert g to kg)
+    df = convert_bw_g_to_kg(df, country, year)
 
-    # Reset True values to .001kg
-    df[var_birth_weight] = np.where(df['adj_bw'], 0.001, df[var_birth_weight])
+    # Combine groups if any less than 25                 ---------------- WAIT ON JOEL/ROBERT REPLY
+
 
     # Create bw_less_25 variable
     df['bw_less_25'] = np.where(df[var_birth_weight] < 2.5, 1, 0)
+    # Create bw_equal_25 variable
+    df['bw_equal_25'] = np.where(df[var_birth_weight] == 2.5, 1, 0)
     
     # Create agg_value_prop_dict
-    agg_value_prop_dict = calc_low_bw_props(df, var_birth_size, 'bw_less_25')
+    agg_value_prop_dict = calc_low_bw_props(df, var_birth_size, 'bw_less_25', 'bw_equal_25')
 
     print(f"agg_value_prop_dict is: \n {agg_value_prop_dict}")
 
@@ -325,7 +327,7 @@ def update_early_bf_variables(df, country, year):
     return df
 
 
-def calc_low_bw_props(df, agg_value_col, group_col):
+def calc_low_bw_props(df, agg_value_col, group_col_1, group_col_2):
     """
     Calculate proportions by group for two columns
     """
@@ -334,6 +336,23 @@ def calc_low_bw_props(df, agg_value_col, group_col):
     agg_value_prop_dict = {}
 
     for agg_value in agg_value_list:
-        agg_value_prop_dict[agg_value] = (df.loc[df[agg_value_col] == agg_value][group_col].sum()) / ((df[agg_value_col] == agg_value).sum())
+        agg_value_prop_dict[agg_value] = (((df.loc[df[agg_value_col] == agg_value][group_col_1].sum()) + \
+            ((df.loc[df[agg_value_col] == agg_value][group_col_2].sum() * 0.25))) / ((df[agg_value_col] == agg_value).sum()))
 
     return agg_value_prop_dict
+
+def convert_bw_g_to_kg(df, country, year):
+    """
+    Function to update early bf variables to work with function above
+    """
+    if year == '2000':
+
+        # :: COL_NAMES
+        var_birth_weight = config_data[country][year]["low_bw"]["birth_weight"]["col_names"][0]
+
+        df[var_birth_weight] = df[var_birth_weight] / 1000
+
+    else:
+        pass
+
+    return df

@@ -14,7 +14,7 @@ config_data = json.load(open(config_path))
 working_path = Path.cwd().joinpath("analyzed")
 
 
-def read_file(country, year, recode):
+def read_spss_file(country, year, recode):
     """
     Function to read in specified file.
     """
@@ -233,7 +233,9 @@ def export_analyzed_data(df, country, year, recode):
     # Save as csv
     out_df.to_csv(out_filepath, index=False)
 
-## Helper functions to fix differences between survey years
+
+
+## --- Helper functions to fix differences between survey years
 
 def update_hhid_variables(df, year):
     """

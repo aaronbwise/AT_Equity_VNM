@@ -7,7 +7,7 @@ import json
 import pyreadstat
 
 from std_utils import (
-    read_file,
+    read_spss_file,
     run_quality_assurance,
     generate_HHID,
     merge_hh_hl_data,
