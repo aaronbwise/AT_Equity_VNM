@@ -10,17 +10,23 @@ import statsmodels.api as sm
 
 from aw_analytics import mean_wt
 
-# Data directory folders
-data_dir = Path.cwd().joinpath('analyzed')
 
-
-def read_csv_file(country, year, recode):
+def read_csv_file(country, year, recode, file_type='working'):
     """
     Function to read in specified file.
     """
 
     ## Generate filename
-    fn = country + '_' + recode + '_' + year + '_working' + '.csv'
+    if file_type == 'working':
+        data_dir = Path.cwd().joinpath('working')
+        fn = country + '_' + recode + '_' + year + '_working' + '.csv'
+        
+    elif file_type == 'combined':
+        data_dir = Path.cwd().joinpath('combined')
+        fn = country + '_' + recode + '_combined' + '.csv'
+
+    else:
+        pass
 
     ## Generate full data file path
     file_path = data_dir / fn
@@ -33,7 +39,7 @@ def read_csv_file(country, year, recode):
 
     return df
 
-def concatenate_dfs(country, list_of_dfs, recode):
+def concatenate_dfs(list_of_dfs):
     """
     Function to concatenate analyzed dfs into combined file for tabulation
     """
@@ -45,7 +51,7 @@ def concatenate_dfs(country, list_of_dfs, recode):
 
 def save_combined(df, country, recode):
 
-    out_fn = country + "_" + recode + "_combined" + '_' + pd.Timestamp("today").strftime("%Y-%m-%d") + ".csv"
+    out_fn = country + "_" + recode + "_combined" + ".csv"
 
     file_path = Path.cwd() / "combined" / out_fn
 

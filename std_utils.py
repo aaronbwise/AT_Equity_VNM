@@ -11,7 +11,7 @@ import pandas as pd
 config_path = Path.cwd().joinpath("config.json")
 config_data = json.load(open(config_path))
 
-working_path = Path.cwd().joinpath("analyzed")
+working_path = Path.cwd().joinpath("working")
 
 
 def read_spss_file(country, year, recode):
