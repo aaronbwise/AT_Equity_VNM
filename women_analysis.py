@@ -271,18 +271,22 @@ def create_mother_edu(df, country, year):
     """
     Function to create Mother education [mother_edu]
     """
+    # If 2000, convert None to NaN
+    df = mother_edu_none_to_null(df, country, year)
+
     # :: COL_NAMES
     var_mother_edu = config_data[country][year]["mother_edu"]["col_names"][0]
 
     # :: VALUES
-    mother_edu_non_primary_values = config_data[country][year]["mother_edu"]["values"]["none_primary"]
+    mother_edu_primary_values = config_data[country][year]["mother_edu"]["values"]["primary"]
     mother_edu_secondary_values = config_data[country][year]["mother_edu"]["values"]["secondary"]
     mother_edu_higher_values = config_data[country][year]["mother_edu"]["values"]["higher"]
-    mother_edu_missing_values = config_data[country][year]["mother_edu"]["values"]["missing"]
+    mother_edu_missing_values = config_data[country][year]["mother_edu"]["values"]["DK"]
 
-    df["mother_edu"] = np.where(df[var_mother_edu].isin(mother_edu_non_primary_values), "Mother Edu: None/Primary",
+    df["mother_edu"] = np.where(df[var_mother_edu].isnull(), "Mother Edu: None",
+                        np.where(df[var_mother_edu].isin(mother_edu_primary_values), "Mother Edu: ECE/Primary",
                         np.where(df[var_mother_edu].isin(mother_edu_secondary_values), "Mother Edu: Secondary",
-                        np.where(df[var_mother_edu].isin(mother_edu_higher_values), "Mother Edu: Higher", "Missing")))
+                        np.where(df[var_mother_edu].isin(mother_edu_higher_values), "Mother Edu: Higher", "Missing"))))
 
     return df
 
@@ -331,7 +335,7 @@ def calc_low_bw_props(df, agg_value_col, group_col_1, group_col_2):
     """
     Calculate proportions by group for two columns
     """
-    agg_value_list = list(df[agg_value_col].unique())
+    agg_value_list = list(df[agg_value_col].unique())        ##### TRY DROPPING DK/MISSING !!!!
 
     agg_value_prop_dict = {}
 
@@ -351,6 +355,23 @@ def convert_bw_g_to_kg(df, country, year):
         var_birth_weight = config_data[country][year]["low_bw"]["birth_weight"]["col_names"][0]
 
         df[var_birth_weight] = df[var_birth_weight] / 1000
+
+    else:
+        pass
+
+    return df
+
+def mother_edu_none_to_null(df, country, year):
+    """
+    Function to convert None to NaN for survey year 2000
+    """
+    # :: COL_NAMES
+    var_mother_edu = config_data[country][year]["mother_edu"]["col_names"][0]
+
+    if year == '2000':
+        df[var_mother_edu] = np.where(df[var_mother_edu] == 'None', np.nan, df[var_mother_edu])
+
+        print(f"Adjusted mother education value are: \n {df[var_mother_edu].value_counts(dropna=False)}")
 
     else:
         pass

@@ -7,7 +7,6 @@ from women_analysis import (
     create_pnc_mother,
     create_low_bw,
     create_early_bf,
-    create_low_bw,
     create_mother_edu,
     subset_women_file
 )

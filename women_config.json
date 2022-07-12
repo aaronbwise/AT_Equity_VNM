@@ -76,10 +76,10 @@
       "mother_edu": {
         "col_names": ["WB6A"],
         "values": {
-            "none_primary": ["ECE", "PRIMARY"],
+            "primary": ["ECE", "PRIMARY"],
             "secondary": ["LOWER SECONDARY", "UPPER SECONDARY", "VOCATIONAL HIGH SCHOOL"],
             "higher": ["UNIVERSITY/ COLLEGE OR HIGHER"],
-            "missing": ["NaN", "DK"]
+            "DK": ["DK"]
         }
       },
       "women_file_subset": {
@@ -170,10 +170,10 @@
       "mother_edu": {
         "col_names": ["WB4"],
         "values": {
-            "none_primary": ["Preschool", "Primary"],
+            "primary": ["Preschool", "Primary"],
             "secondary": ["Lower Secondary", "Upper Secondary", "Professional School"],
             "higher": ["College/University & above"],
-            "missing": ["NaN"]
+            "DK": ["DK"]
         }
       },
       "women_file_subset": {
@@ -259,10 +259,10 @@
         "mother_edu": {
           "col_names": ["WB4"],
           "values": {
-              "none_primary": ["Preschool", "Primary"],
+              "primary": ["Preschool", "Primary"],
               "secondary": ["Lower Secondary", "Upper Secondary", "Professional School"],
               "higher": ["College/University and above"],
-              "missing": ["NaN"]
+              "DK": ["DK"]
           }
         },
         "women_file_subset": {
@@ -347,10 +347,10 @@
         "mother_edu": {
           "col_names": ["wm11"],
           "values": {
-              "none_primary": ["Preschool/kindergarten", "Primary"],
+              "primary": ["Preschool/kindergarten", "Primary"],
               "secondary": ["Lower secondary", "Secondary", "Long apprentice", "Short apprentice", "Non-standard curriculum"],
               "higher": ["Higher"],
-              "missing": ["NaN"]
+              "DK": ["DK"]
           }
         },
         "women_file_subset": {
@@ -435,10 +435,10 @@
         "mother_edu": {
           "col_names": ["MELEVEL"],
           "values": {
-              "none_primary": ["None", "primaire"],
+              "primary": ["primaire"],
               "secondary": ["Lower secondary", "Upper secondary", "Tech voc. training", "Non standard"],
               "higher": ["College univerty or higher"],
-              "missing": ["Don't know"]
+              "DK": ["Don't know"]
           }
         },
         "women_file_subset": {

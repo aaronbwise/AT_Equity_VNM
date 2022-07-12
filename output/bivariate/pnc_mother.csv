@@ -1,0 +1,29 @@
+,int_2021_Urban,int_2021_Northern Midlands and Mountain,int_2021_Secondary_Higher,int_2021_Richest,int_2021_Kinh_Hoa,int_2021_Elderly HoH: NO,int_2021_Female
+residence,"[c0   -0.2343
+Name: coef, dtype: float64, c0   -0.095508
+Name: t, dtype: float64, c0    0.923917
+Name: P>|t|, dtype: float64]",,,,,,
+region,,"[c0    1.425639
+Name: coef, dtype: float64, c0    0.354504
+Name: t, dtype: float64, c0    0.723028
+Name: P>|t|, dtype: float64]",,,,,
+mother_edu_biv,,,"[c0   -6.314117
+Name: coef, dtype: float64, c0   -1.896738
+Name: t, dtype: float64, c0    0.057957
+Name: P>|t|, dtype: float64]",,,,
+wealth_q,,,,"[c0   -4.481368
+Name: coef, dtype: float64, c0   -1.539061
+Name: t, dtype: float64, c0    0.123893
+Name: P>|t|, dtype: float64]",,,
+eth_hoh_biv,,,,,"[c0   -9.150146
+Name: coef, dtype: float64, c0   -3.234664
+Name: t, dtype: float64, c0    0.001231
+Name: P>|t|, dtype: float64]",,
+elderly_hoh,,,,,,"[c0    0.805807
+Name: coef, dtype: float64, c0    0.288581
+Name: t, dtype: float64, c0    0.772922
+Name: P>|t|, dtype: float64]",
+sex_hoh,,,,,,,"[c0   -1.908668
+Name: coef, dtype: float64, c0   -0.704055
+Name: t, dtype: float64, c0    0.481452
+Name: P>|t|, dtype: float64]"

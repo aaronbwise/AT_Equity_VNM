@@ -1,3 +1,4 @@
+from argon2 import PasswordHasher
 import numpy as np
 import pandas as pd
 
@@ -37,7 +38,6 @@ def output_mean_table(df, var, ind_vars, wt):
     - Requires import of mean_wt module -
     """
 
-    # Create reduced dataframe
     temp = df
 
     ind_df = pd.DataFrame(temp[ind_vars])
@@ -208,11 +208,11 @@ def output_mean_tableau(df, var, ind_vars, wt):
     ]
     output_df = output_df[col_order]
 
-    # 3.3 Insert Round column
-    if "Round" in ind_vars:
-        output_df.insert(0, "Round", ind_df["Round"].unique()[0])
+    # 3.3 Insert Year column
+    if "Year" in ind_vars:                                                   ########### Changed to Year
+        output_df.insert(0, "Year", ind_df["Year"].unique()[0])
     else:
-        output_df.insert(0, "Round", "MISSING")
+        output_df.insert(0, "Year", "MISSING")
 
     # 3.4 Rename Count
     if wt == None:
@@ -221,3 +221,5 @@ def output_mean_tableau(df, var, ind_vars, wt):
         output_df = output_df.rename(columns={"Count": "Weighted_Count"})
 
     return output_df
+
+

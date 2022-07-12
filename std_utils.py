@@ -209,6 +209,7 @@ def save_merge(df, country, year, recode):
     file_path = Path.cwd() / "data" / year / "merge" / out_fn
 
     df.to_csv(file_path, index=False)
+    
 
 def export_analyzed_data(df, country, year, recode):
     """
@@ -217,7 +218,7 @@ def export_analyzed_data(df, country, year, recode):
 
     # Identify and select columns for working dataset
     working_var_idx = df.columns.get_loc('Total')
-    working_var_cols = df.columns[working_var_idx:-1].to_list()
+    working_var_cols = df.columns[working_var_idx:].to_list()
 
     # Add weight variable
     weight = config_data["survey_dict"][country][year][recode]["weight"]
