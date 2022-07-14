@@ -13,6 +13,9 @@ config_data = json.load(open(config_path))
 
 working_path = Path.cwd().joinpath("working")
 
+config_path_c = Path.cwd().joinpath("children_config.json")
+config_data_c = json.load(open(config_path_c))
+
 
 def read_spss_file(country, year, recode):
     """
@@ -254,7 +257,7 @@ def export_analyzed_data(df, country, year, recode):
     """
 
     # Identify and select columns for working dataset
-    working_var_idx = df.columns.get_loc('WMID')
+    working_var_idx = df.columns.get_loc('Total')
     working_var_cols = df.columns[working_var_idx:].to_list()
 
     # Add weight variable
@@ -263,6 +266,12 @@ def export_analyzed_data(df, country, year, recode):
 
     # Subset the dataframe
     out_df = df[working_var_cols]
+
+    if recode == 'children':
+        mother_edu = config_data_c[country][year]["mother_edu"]["col_names"]
+        out_df = out_df.drop(columns=mother_edu)
+    else:
+        pass
 
     # Generate out_filepath
     out_file = country + "_" + recode + "_" + year + '_working' + '.csv'

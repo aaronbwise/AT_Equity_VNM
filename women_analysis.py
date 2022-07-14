@@ -11,11 +11,14 @@ import pandas as pd
 config_path = Path.cwd().joinpath("women_config.json")
 config_data = json.load(open(config_path))
 
+config_path_c = Path.cwd().joinpath("children_config.json")
+config_data_c = json.load(open(config_path_c))
+
 
 
 ### --- OUTCOME VARIABLES --- ###
 
-def generate_str_replace_dict(df, country, year, cat_var):
+def generate_str_replace_dict(country, year, cat_var):
     """
     Find and generate str_replace_dict based on cat_var
     """
@@ -269,24 +272,30 @@ def create_low_bw(df, country, year):
     return df
 
 
-def create_mother_edu(df, country, year):
+def create_mother_edu(df, country, year, recode='women'):
     """
     Function to create Mother education [mother_edu]
     """
-    # If 2000, convert None to NaN
-    df = mother_edu_none_to_null(df, country, year)
-
+    
     # :: COL_NAMES
+    if recode == 'children':
+        config_data = config_data_c
+    else:
+        config_data = config_data
+
+    # If 2000, convert None to NaN
+    df = mother_edu_none_to_null(df, country, year, recode)
+
     var_mother_edu = config_data[country][year]["mother_edu"]["col_names"][0]
 
     # :: VALUES
+    mother_edu_ece_values = config_data[country][year]["mother_edu"]["values"]["ece"]
     mother_edu_primary_values = config_data[country][year]["mother_edu"]["values"]["primary"]
     mother_edu_secondary_values = config_data[country][year]["mother_edu"]["values"]["secondary"]
     mother_edu_higher_values = config_data[country][year]["mother_edu"]["values"]["higher"]
-    mother_edu_missing_values = config_data[country][year]["mother_edu"]["values"]["DK"]
 
-    df["mother_edu"] = np.where(df[var_mother_edu].isnull(), "Mother Edu: None",
-                        np.where(df[var_mother_edu].isin(mother_edu_primary_values), "Mother Edu: ECE/Primary",
+    df["mother_edu"] = np.where((df[var_mother_edu].isnull()) | (df[var_mother_edu].isin(mother_edu_ece_values)), "Mother Edu: None/ECE",
+                        np.where(df[var_mother_edu].isin(mother_edu_primary_values), "Mother Edu: Primary",
                         np.where(df[var_mother_edu].isin(mother_edu_secondary_values), "Mother Edu: Secondary",
                         np.where(df[var_mother_edu].isin(mother_edu_higher_values), "Mother Edu: Higher", "Missing"))))
 
@@ -363,11 +372,16 @@ def convert_bw_g_to_kg(df, country, year):
 
     return df
 
-def mother_edu_none_to_null(df, country, year):
+def mother_edu_none_to_null(df, country, year, recode):
     """
     Function to convert None to NaN for survey year 2000
     """
     # :: COL_NAMES
+    if recode == 'children':
+        config_data = config_data_c
+    else:
+        pass
+
     var_mother_edu = config_data[country][year]["mother_edu"]["col_names"][0]
 
     if year == '2000':

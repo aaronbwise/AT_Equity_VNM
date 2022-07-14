@@ -1,4 +1,5 @@
 from children_analysis import (
+    subset_children_file,
     generate_MOMID,
     merge_mother_edu,
     create_sex_ch,
@@ -11,3 +12,5 @@ from children_analysis import (
 )
 
 from aw_analytics import mean_wt, output_mean_table
+
+from women_analysis import create_mother_edu
