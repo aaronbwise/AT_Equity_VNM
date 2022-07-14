@@ -1,551 +1,551 @@
-Total,Year,residence,region,wealth_q,eth_hoh,elderly_hoh,sex_hoh,mother_edu,bw_less_25,bw_equal_25,low_bw,WMWEIGHT
-Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Higher,0,0,0.9285714285714286,1.487502123125587
-Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Higher,0,0,0.0,1.487502123125587
-Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Higher,0,0,0.9803921568627451,1.6289948178956155
-Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9803921568627451,1.487502123125587
-Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.487502123125587
-Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.487502123125587
-Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Higher,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6289948178956155
-Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.487502123125587
-Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.487502123125587
-Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.487502123125587
-Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6289948178956155
-Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.6289948178956155
-Total,2000,Rural,Red River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.6289948178956155
-Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,1,20.3125,1.6289948178956155
-Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,1.6289948178956155
-Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.6289948178956155
-Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6289948178956155
-Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6289948178956155
-Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6289948178956155
-Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6289948178956155
-Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,1,0,22.22222222222222,1.6289948178956155
-Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,1,0,20.3125,1.6289948178956155
-Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,1,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,22.22222222222222,1.6289948178956155
-Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.0,1.6289948178956155
-Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6289948178956155
-Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,1,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.6289948178956155
-Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Higher,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.6289948178956155
-Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,20.3125,1.487502123125587
-Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.487502123125587
-Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.487502123125587
-Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6289948178956155
-Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,1,20.3125,1.6289948178956155
-Total,2000,Rural,Red River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.6289948178956155
-Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,1,0.9285714285714286,1.6289948178956155
-Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6289948178956155
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Middle,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9803921568627451,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Urban,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.4759549190377923
-Total,2000,Rural,Northern Midlands and Mountain,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Urban,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9803921568627451,1.4759549190377923
-Total,2000,Urban,Northern Midlands and Mountain,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.4759549190377923
-Total,2000,Urban,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.4759549190377923
-Total,2000,Rural,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.0,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9803921568627451,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.0,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Urban,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.4759549190377923
-Total,2000,Urban,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Higher,0,0,0.9285714285714286,1.4759549190377923
-Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9803921568627451,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,20.3125,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,20.3125,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poor,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.1885121920277593
-Total,2000,Rural,Northern Midlands and Mountain,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
-Total,2000,Urban,Northern Midlands and Mountain,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Higher,0,0,0.9285714285714286,0.356138057281427
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9803921568627451,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9803921568627451,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,20.3125,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poor,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Female,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Urban,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.356138057281427
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Rich,"Tay, Thai, Muong, Nung",Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Urban,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.356138057281427
-Total,2000,Urban,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.356138057281427
-Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Rich,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,1,0,20.3125,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: YES,Male,Mother Edu: None,0,0,20.3125,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,1,0,0.9803921568627451,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.21731687791255574
-Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.21731687791255574
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Urban,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Higher,0,0,0.9285714285714286,1.2170701773931982
-Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Higher,0,0,0.9803921568627451,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Urban,North Central and Central Coast,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2170701773931982
-Total,2000,Urban,North Central and Central Coast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2170701773931982
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.0,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,1,0,20.3125,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,1,0,20.3125,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.0,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,1,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,1,0,20.3125,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,22.22222222222222,1.040044202851952
-Total,2000,Urban,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2170701773931982
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,1.040044202851952
-Total,2000,Urban,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.6900024150048191
-Total,2000,Urban,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.6900024150048191
-Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Higher,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Urban,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6900024150048191
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,20.3125,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.0,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,1,0,20.3125,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,20.3125,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,1,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poor,Other/Missing,Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,20.3125,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,22.22222222222222,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,20.3125,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.6486060257199862
-Total,2000,Urban,North Central and Central Coast,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6900024150048191
-Total,2000,Urban,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.6900024150048191
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,1,0,22.22222222222222,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,22.22222222222222,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,20.3125,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Urban,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6900024150048191
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Middle,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Urban,North Central and Central Coast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.6900024150048191
-Total,2000,Urban,North Central and Central Coast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6900024150048191
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.6486060257199862
-Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,1,0.9285714285714286,0.6486060257199862
-Total,2000,Urban,North Central and Central Coast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6900024150048191
-Total,2000,Urban,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.6900024150048191
-Total,2000,Rural,North Central and Central Coast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
-Total,2000,Urban,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.2989428398772079
-Total,2000,Urban,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,1,0,20.3125,0.2989428398772079
-Total,2000,Urban,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.2989428398772079
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.31852025901663467
-Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,0.31852025901663467
-Total,2000,Urban,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.2989428398772079
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9803921568627451,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,22.22222222222222,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,22.22222222222222,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.31852025901663467
-Total,2000,Rural,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Urban,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Higher,0,0,0.9285714285714286,0.2989428398772079
-Total,2000,Urban,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.2989428398772079
-Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,0.31852025901663467
-Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,20.3125,0.31852025901663467
-Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.31852025901663467
-Total,2000,Rural,Central Highlands,Middle,Other/Missing,Elderly HoH: NO,Female,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Middle,Other/Missing,Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.0,0.31852025901663467
-Total,2000,Rural,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Urban,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.2989428398772079
-Total,2000,Urban,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.2989428398772079
-Total,2000,Urban,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.2989428398772079
-Total,2000,Rural,Central Highlands,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,20.3125,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,0.31852025901663467
-Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Urban,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,0.2989428398772079
-Total,2000,Urban,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.2989428398772079
-Total,2000,Rural,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9803921568627451,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Higher,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: None,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9803921568627451,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,1,0,20.3125,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Rural,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2525982377515248
-Total,2000,Rural,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2525982377515248
-Total,2000,Rural,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2525982377515248
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Rural,Southeast,Middle,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2525982377515248
-Total,2000,Rural,Southeast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2525982377515248
-Total,2000,Rural,Southeast,Poor,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.2525982377515248
-Total,2000,Rural,Southeast,Rich,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,,1.2525982377515248
-Total,2000,Rural,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2525982377515248
-Total,2000,Rural,Southeast,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.2525982377515248
-Total,2000,Rural,Southeast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.2525982377515248
-Total,2000,Rural,Southeast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.2525982377515248
-Total,2000,Rural,Southeast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.2525982377515248
-Total,2000,Rural,Southeast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2525982377515248
-Total,2000,Rural,Southeast,Rich,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,20.3125,1.2525982377515248
-Total,2000,Urban,Southeast,Rich,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Rural,Southeast,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.2525982377515248
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2734079867243675
-Total,2000,Rural,Southeast,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.2525982377515248
-Total,2000,Rural,Southeast,Poor,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.2525982377515248
-Total,2000,Rural,Southeast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2525982377515248
-Total,2000,Rural,Southeast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2525982377515248
-Total,2000,Rural,Southeast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.2525982377515248
-Total,2000,Rural,Southeast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.2525982377515248
-Total,2000,Rural,Southeast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,1,0,20.3125,1.2525982377515248
-Total,2000,Rural,Southeast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.2525982377515248
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2734079867243675
-Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
-Total,2000,Rural,Southeast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.2525982377515248
-Total,2000,Rural,Southeast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,1,0,20.3125,1.2525982377515248
-Total,2000,Rural,Southeast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2525982377515248
-Total,2000,Rural,Southeast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,1,0,20.3125,1.2525982377515248
-Total,2000,Rural,Southeast,Poorest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.2525982377515248
-Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,1,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,22.22222222222222,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,1,20.3125,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Urban,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,1,0.9285714285714286,0.9730737686680445
-Total,2000,Urban,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.9730737686680445
-Total,2000,Urban,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.9730737686680445
-Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,20.3125,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6509296270191947
-Total,2000,Urban,Mekong River Delta,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.9730737686680445
-Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,1,0,20.3125,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,20.3125,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Higher,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9803921568627451,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,1,20.3125,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Urban,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.9730737686680445
-Total,2000,Urban,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.9730737686680445
-Total,2000,Urban,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.9730737686680445
-Total,2000,Urban,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.9730737686680445
-Total,2000,Urban,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.9730737686680445
-Total,2000,Urban,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.9730737686680445
-Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,1,0,20.3125,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,1,0,20.3125,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6509296270191947
-Total,2000,Urban,Mekong River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.9730737686680445
-Total,2000,Urban,Mekong River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.9730737686680445
-Total,2000,Urban,Mekong River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.9730737686680445
-Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,1,20.3125,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,1,0,20.3125,1.6509296270191947
-Total,2000,Urban,Mekong River Delta,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Higher,0,0,0.9803921568627451,0.9730737686680445
-Total,2000,Rural,Mekong River Delta,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poorest,Other/Missing,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9803921568627451,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,20.3125,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,1,0.9285714285714286,1.6509296270191947
-Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
-Total,2000,Urban,Mekong River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Higher,0,0,0.9803921568627451,0.9730737686680445
-Total,2000,Urban,Mekong River Delta,Richest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.9730737686680445
-Total,2000,Urban,Mekong River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.9730737686680445
-Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,1,0.9285714285714286,1.6509296270191947
+WMID,Total,Year,residence,region,wealth_q,eth_hoh,elderly_hoh,sex_hoh,mother_edu,bw_less_25,bw_equal_25,low_bw,WMWEIGHT
+000101090900913006,Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Higher,0,0,0.9285714285714286,1.487502123125587
+000101090900922001,Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Higher,0,0,0.0,1.487502123125587
+000101150501906003,Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
+000101150501911002,Total,2000,Rural,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Higher,0,0,0.9803921568627451,1.6289948178956155
+000101190302921001,Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9803921568627451,1.487502123125587
+000101196100716002,Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
+000103050300203002,Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.487502123125587
+000103050300214003,Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.487502123125587
+000103114900717004,Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Higher,0,0,0.9285714285714286,1.6289948178956155
+000103171501510002,Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
+000103171501512002,Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
+000103171501521002,Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6289948178956155
+000105010902105003,Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.487502123125587
+000105010902113002,Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.487502123125587
+000105010902122007,Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.487502123125587
+000105055500363006,Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6289948178956155
+000105191301012008,Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.6289948178956155
+000105251500107002,Total,2000,Rural,Red River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
+000105251500110002,Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
+000105251500111002,Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
+000105251500112001,Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
+000105251500123002,Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.6289948178956155
+000107052101218004,Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,1,20.3125,1.6289948178956155
+000107113300720004,Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,1.6289948178956155
+000107192500820004,Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
+000109032100309004,Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
+000109032100318002,Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.6289948178956155
+000109032100331002,Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6289948178956155
+000109032100333002,Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6289948178956155
+000109072101210002,Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6289948178956155
+000111052100926002,Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6289948178956155
+000111052100940001,Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,1,0,22.22222222222222,1.6289948178956155
+000111052100943001,Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
+000113072900336003,Total,2000,Rural,Red River Delta,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,1,0,20.3125,1.6289948178956155
+000113112901026002,Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,1,0.9285714285714286,1.6289948178956155
+000113112901031002,Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
+000113112901033002,Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
+000113192101705001,Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
+000113192101712002,Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,22.22222222222222,1.6289948178956155
+000113192101722002,Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
+000113192101726002,Total,2000,Rural,Red River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6289948178956155
+000113192101736002,Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.0,1.6289948178956155
+000113192101737002,Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
+000113192101744002,Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6289948178956155
+000115050501816002,Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6289948178956155
+000115076700319003,Total,2000,Rural,Red River Delta,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
+000115076700326004,Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,1,0.9285714285714286,1.6289948178956155
+000115156500713002,Total,2000,Rural,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.6289948178956155
+000115156500724003,Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Higher,0,0,0.9285714285714286,1.6289948178956155
+000115156500767002,Total,2000,Rural,Red River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.6289948178956155
+000117010901905001,Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,20.3125,1.487502123125587
+000117010901907001,Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.487502123125587
+000117010901955004,Total,2000,Urban,Red River Delta,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.487502123125587
+000117071901809004,Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6289948178956155
+000117071901819002,Total,2000,Rural,Red River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,1,20.3125,1.6289948178956155
+000117071901827002,Total,2000,Rural,Red River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6289948178956155
+000117071901836002,Total,2000,Rural,Red River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.6289948178956155
+000117133900614003,Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,1,0.9285714285714286,1.6289948178956155
+000117133900629002,Total,2000,Rural,Red River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6289948178956155
+000201031900205002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000201031900212009,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000201031900215002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000201031900224002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000201031900232002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000201031900245004,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000201031900249005,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000201172900504002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000201172900508004,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000201172900511003,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000201172900513002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000201172900528002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000201172900544002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000201172900559002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000205151700505001,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
+000205151700510002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
+000205151700512002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
+000205151700523004,Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
+000209113100114002,Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
+000211072900905004,Total,2000,Rural,Northern Midlands and Mountain,Middle,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000211072900912002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9803921568627451,1.1885121920277593
+000211072900916004,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000211072900923002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000211072900928004,Total,2000,Rural,Northern Midlands and Mountain,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000211090701708004,Total,2000,Urban,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.4759549190377923
+000213053100408006,Total,2000,Rural,Northern Midlands and Mountain,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
+000213053100409002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000213053100415002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000213053100417004,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,1.1885121920277593
+000213053100422002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000213151700507004,Total,2000,Rural,Northern Midlands and Mountain,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
+000213151700510004,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000213151700521004,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000213151700524004,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
+000213151700546008,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.1885121920277593
+000215012700219004,Total,2000,Urban,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9803921568627451,1.4759549190377923
+000215012700229004,Total,2000,Urban,Northern Midlands and Mountain,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.4759549190377923
+000215012700233001,Total,2000,Urban,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.4759549190377923
+000215090901110005,Total,2000,Rural,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
+000215090901121001,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.1885121920277593
+000217116901408002,Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
+000217116901412002,Total,2000,Rural,Northern Midlands and Mountain,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
+000217153300704002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.0,1.1885121920277593
+000217153300711002,Total,2000,Rural,Northern Midlands and Mountain,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
+000217193900911004,Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.1885121920277593
+000217193900927002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
+000219035500706003,Total,2000,Rural,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
+000219035500714007,Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
+000219035500766002,Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.1885121920277593
+000219071300103007,Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
+000219071300106001,Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9803921568627451,1.1885121920277593
+000219071300119002,Total,2000,Rural,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
+000219071300120004,Total,2000,Rural,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.0,1.1885121920277593
+000219071300120005,Total,2000,Rural,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
+000219071300153007,Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
+000221030100811004,Total,2000,Urban,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.4759549190377923
+000221030100826001,Total,2000,Urban,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Higher,0,0,0.9285714285714286,1.4759549190377923
+000221070300501004,Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
+000221070300506003,Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
+000221070300513002,Total,2000,Rural,Northern Midlands and Mountain,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.1885121920277593
+000221070300517002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9803921568627451,1.1885121920277593
+000221070300519005,Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
+000221070300523004,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.1885121920277593
+000221070300530004,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,20.3125,1.1885121920277593
+000221094902414002,Total,2000,Rural,Northern Midlands and Mountain,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.1885121920277593
+000221094902424004,Total,2000,Rural,Northern Midlands and Mountain,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,20.3125,1.1885121920277593
+000221094902425004,Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
+000221094902427002,Total,2000,Rural,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,1.1885121920277593
+000223052300402006,Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.1885121920277593
+000223052300404002,Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
+000223091701303003,Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.1885121920277593
+000223091701309004,Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
+000223091701314002,Total,2000,Rural,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
+000223091701325004,Total,2000,Rural,Northern Midlands and Mountain,Poor,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
+000223091701339005,Total,2000,Rural,Northern Midlands and Mountain,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.1885121920277593
+000225210500407004,Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.1885121920277593
+000225210500429002,Total,2000,Rural,Northern Midlands and Mountain,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.1885121920277593
+000301010104104002,Total,2000,Urban,Northern Midlands and Mountain,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Higher,0,0,0.9285714285714286,0.356138057281427
+000301071300106002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000301071300108002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000301071300109002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.21731687791255574
+000301071300114002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9803921568627451,0.21731687791255574
+000301071300115002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9803921568627451,0.21731687791255574
+000301071300119002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000301071300127004,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000301075301405003,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,20.3125,0.21731687791255574
+000301075301414004,Total,2000,Rural,Northern Midlands and Mountain,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
+000301131900902006,Total,2000,Rural,Northern Midlands and Mountain,Poor,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000301131900907004,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000301131900910004,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000301131900913003,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000301131900915011,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000301131900953002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000301153500110002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.21731687791255574
+000301153500111002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.21731687791255574
+000301153500117002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.21731687791255574
+000301171900526004,Total,2000,Rural,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
+000301191100305002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000301191100313002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Female,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000301191100314004,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000301191100316004,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000303010700901002,Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.21731687791255574
+000303010700924002,Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.21731687791255574
+000303031300207002,Total,2000,Rural,Northern Midlands and Mountain,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000303031300210004,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.21731687791255574
+000303031300213005,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000303031300214010,Total,2000,Rural,Northern Midlands and Mountain,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000303031300215002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000303070501304005,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000303074301001002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000303074301007002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000303090500301002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000303090500307002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,Mong,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000303112101103002,Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.21731687791255574
+000303112101103006,Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000303112101106003,Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.21731687791255574
+000303112101109008,Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.21731687791255574
+000303112101114004,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.21731687791255574
+000303130501006010,Total,2000,Urban,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.356138057281427
+000303132100306002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000303150700807002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000303153700218003,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000303153700224002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.21731687791255574
+000303172500602009,Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
+000303172500606008,Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.21731687791255574
+000305011700323002,Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
+000305011700324002,Total,2000,Rural,Northern Midlands and Mountain,Rich,"Tay, Thai, Muong, Nung",Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
+000305030100908002,Total,2000,Urban,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.356138057281427
+000305030100942002,Total,2000,Urban,Northern Midlands and Mountain,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.356138057281427
+000305051300103004,Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
+000305051300105003,Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.21731687791255574
+000305051300117003,Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.21731687791255574
+000305051300121004,Total,2000,Rural,Northern Midlands and Mountain,Rich,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,1,0,20.3125,0.21731687791255574
+000305092700511002,Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
+000305092700527002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.21731687791255574
+000305113300505004,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: YES,Male,Mother Edu: None,0,0,20.3125,0.21731687791255574
+000305113300510004,Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
+000305113300534003,Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
+000305113300541004,Total,2000,Rural,Northern Midlands and Mountain,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,1,0,0.9803921568627451,0.21731687791255574
+000305130500513002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.21731687791255574
+000305130500528002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.21731687791255574
+000305150900420004,Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
+000305154500718002,Total,2000,Rural,Northern Midlands and Mountain,Middle,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.21731687791255574
+000305154500726003,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.21731687791255574
+000305154500733002,Total,2000,Rural,Northern Midlands and Mountain,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.21731687791255574
+000401050900203002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
+000401152500214004,Total,2000,Rural,North Central and Central Coast,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.040044202851952
+000401231700625002,Total,2000,Rural,North Central and Central Coast,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
+000401231700629006,Total,2000,Rural,North Central and Central Coast,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
+000401231700661002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
+000401310100506002,Total,2000,Urban,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Higher,0,0,0.9285714285714286,1.2170701773931982
+000401313701027003,Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
+000401394500721002,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
+000401435300222002,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
+000401435300224003,Total,2000,Rural,North Central and Central Coast,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Higher,0,0,0.9803921568627451,1.040044202851952
+000401435300226002,Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
+000401472300121002,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.040044202851952
+000401472300148002,Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.040044202851952
+000401497100632003,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
+000403010702402004,Total,2000,Urban,North Central and Central Coast,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2170701773931982
+000403010702427006,Total,2000,Urban,North Central and Central Coast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2170701773931982
+000403050700205004,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,1.040044202851952
+000403050700213002,Total,2000,Rural,North Central and Central Coast,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.040044202851952
+000403050700255002,Total,2000,Rural,North Central and Central Coast,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.0,1.040044202851952
+000403174100902002,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,1,0,20.3125,1.040044202851952
+000403174100905002,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
+000403174100906002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,1,0,20.3125,1.040044202851952
+000403174100909002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
+000403174100910002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.040044202851952
+000403174100913002,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.040044202851952
+000403174100931002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,1.040044202851952
+000403230500707002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
+000403253101027003,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.040044202851952
+000403293301023005,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
+000403293301025002,Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.040044202851952
+000403370300901002,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
+000403370300915002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.0,1.040044202851952
+000403370300916002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.040044202851952
+000403370300920002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
+000403370300925002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,1.040044202851952
+000403370300951002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
+000405092300201003,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
+000405092300219002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.040044202851952
+000405092300221004,Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
+000405092300229002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.040044202851952
+000405092300232004,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
+000405131300605005,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
+000405151300309002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,1,0.9285714285714286,1.040044202851952
+000405151300314002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,1,0,20.3125,1.040044202851952
+000407031501705002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,1.040044202851952
+000407031501722002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
+000407031501727002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.040044202851952
+000407110900814003,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
+000407110900821002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
+000407110900838002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,22.22222222222222,1.040044202851952
+000407130301513001,Total,2000,Urban,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2170701773931982
+000409072100912002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.040044202851952
+000411014700515010,Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
+000411014700522002,Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.040044202851952
+000411014700529002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.040044202851952
+000411051300919002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,1.040044202851952
+000501012302512003,Total,2000,Urban,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.6900024150048191
+000501012302512006,Total,2000,Urban,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.6900024150048191
+000501110101022001,Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Higher,0,0,0.9285714285714286,0.6486060257199862
+000501110101025004,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
+000503013703409002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
+000503013703417002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
+000503013703421002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6486060257199862
+000503013703426002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
+000503070102401002,Total,2000,Urban,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6900024150048191
+000503072901506002,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.6486060257199862
+000503072901525002,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
+000503072901533002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.6486060257199862
+000503152701005003,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,20.3125,0.6486060257199862
+000503152701009002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,0.6486060257199862
+000503152701028002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.0,0.6486060257199862
+000503152701030002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,1,0,20.3125,0.6486060257199862
+000503191900205002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.6486060257199862
+000503191900210002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
+000503191900230002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,0.6486060257199862
+000503252501918002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
+000505051700113003,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,20.3125,0.6486060257199862
+000505091900525002,Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
+000505150701419002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,1,0,0.9285714285714286,0.6486060257199862
+000505190300101002,Total,2000,Rural,North Central and Central Coast,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.6486060257199862
+000505190300102002,Total,2000,Rural,North Central and Central Coast,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.6486060257199862
+000505190300109005,Total,2000,Rural,North Central and Central Coast,Poor,Other/Missing,Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,20.3125,0.6486060257199862
+000505190300111002,Total,2000,Rural,North Central and Central Coast,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6486060257199862
+000505190300114002,Total,2000,Rural,North Central and Central Coast,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,22.22222222222222,0.6486060257199862
+000505190300128002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.6486060257199862
+000505190300133002,Total,2000,Rural,North Central and Central Coast,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.6486060257199862
+000505232101206003,Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,0.6486060257199862
+000505232101208001,Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,20.3125,0.6486060257199862
+000505232101216002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.6486060257199862
+000507010300814004,Total,2000,Urban,North Central and Central Coast,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6900024150048191
+000507050301824002,Total,2000,Urban,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.6900024150048191
+000507050701306003,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,1,0,22.22222222222222,0.6486060257199862
+000507071302005003,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
+000507071302050001,Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
+000507111101717002,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
+000507111101718005,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6486060257199862
+000507151501003002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,22.22222222222222,0.6486060257199862
+000507151501014005,Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.6486060257199862
+000507151501023002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
+000507190700205002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
+000507190700208002,Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,0.6486060257199862
+000507190700209002,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.6486060257199862
+000507190700223003,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,20.3125,0.6486060257199862
+000507190700224002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6486060257199862
+000507190700229006,Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.6486060257199862
+000507190700230002,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6486060257199862
+000507190700234004,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6486060257199862
+000507190700268002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
+000509010902538004,Total,2000,Urban,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6900024150048191
+000509030701559002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
+000509090500306002,Total,2000,Rural,North Central and Central Coast,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,0.6486060257199862
+000509090500311003,Total,2000,Rural,North Central and Central Coast,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.6486060257199862
+000509090500318005,Total,2000,Rural,North Central and Central Coast,Middle,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.6486060257199862
+000509113502522002,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
+000509113502523002,Total,2000,Rural,North Central and Central Coast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6486060257199862
+000509113502557002,Total,2000,Rural,North Central and Central Coast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.6486060257199862
+000511011903003002,Total,2000,Urban,North Central and Central Coast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.6900024150048191
+000511011903006004,Total,2000,Urban,North Central and Central Coast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6900024150048191
+000511014501103001,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6486060257199862
+000511014501116007,Total,2000,Rural,North Central and Central Coast,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.6486060257199862
+000511052900218001,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
+000511052900220002,Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.6486060257199862
+000511052900224002,Total,2000,Rural,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.6486060257199862
+000511052900225002,Total,2000,Rural,North Central and Central Coast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,1,0.9285714285714286,0.6486060257199862
+000511090107313003,Total,2000,Urban,North Central and Central Coast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6900024150048191
+000511090107330002,Total,2000,Urban,North Central and Central Coast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.6900024150048191
+000511091300611006,Total,2000,Rural,North Central and Central Coast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.6486060257199862
+000601010502001004,Total,2000,Urban,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.2989428398772079
+000601010502032003,Total,2000,Urban,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,1,0,20.3125,0.2989428398772079
+000601010502033009,Total,2000,Urban,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.2989428398772079
+000601032100901002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
+000601032100902002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.31852025901663467
+000601032100906002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
+000601032100908002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
+000601032100909002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
+000601032100925002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
+000601111501403006,Total,2000,Rural,Central Highlands,Poor,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
+000601111501405002,Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
+000601111501407002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
+000601111501417002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
+000601131500514002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
+000601131500517002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
+000601131500521002,Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.31852025901663467
+000601131500522004,Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,0.31852025901663467
+000603010303339001,Total,2000,Urban,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.2989428398772079
+000603030300104002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9803921568627451,0.31852025901663467
+000603030300115002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
+000603030300116004,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
+000603030300118002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,22.22222222222222,0.31852025901663467
+000603030300119002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
+000603030300121002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,22.22222222222222,0.31852025901663467
+000603051501402002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,0.31852025901663467
+000603051501405002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
+000603051501407002,Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000603051501410002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
+000603070902508002,Total,2000,Rural,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000603070902509002,Total,2000,Rural,Central Highlands,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000603070902515002,Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.31852025901663467
+000603070902529002,Total,2000,Rural,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000603070902531002,Total,2000,Rural,Central Highlands,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000603110100705002,Total,2000,Urban,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Higher,0,0,0.9285714285714286,0.2989428398772079
+000603110100723003,Total,2000,Urban,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.2989428398772079
+000603110301105001,Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
+000603110301106002,Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000603110301107002,Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,0.31852025901663467
+000603110301119002,Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000603110301121005,Total,2000,Rural,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,0.31852025901663467
+000603110301131001,Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,20.3125,0.31852025901663467
+000603110301154002,Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000603151100401002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.31852025901663467
+000603151100406002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.31852025901663467
+000603151100418001,Total,2000,Rural,Central Highlands,Middle,Other/Missing,Elderly HoH: NO,Female,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
+000603151100419006,Total,2000,Rural,Central Highlands,Middle,Other/Missing,Elderly HoH: YES,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
+000603191300812002,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,0.31852025901663467
+000603191300820002,Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
+000603191300823002,Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000603191300825002,Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000603191300826002,Total,2000,Rural,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.0,0.31852025901663467
+000603191300827002,Total,2000,Rural,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000603191300829002,Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.31852025901663467
+000603191300830003,Total,2000,Rural,Central Highlands,Poorest,Other/Missing,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
+000603211501407002,Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
+000603211501410002,Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,0.31852025901663467
+000603211501415002,Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000603211501416002,Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000603211501427002,Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
+000603211501430002,Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000605011502419002,Total,2000,Urban,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.2989428398772079
+000605012301423002,Total,2000,Urban,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.2989428398772079
+000605012301424002,Total,2000,Urban,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.2989428398772079
+000605012700307007,Total,2000,Rural,Central Highlands,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000605031300407002,Total,2000,Rural,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000605031300413007,Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.31852025901663467
+000605031300418002,Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000605091901707006,Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,20.3125,0.31852025901663467
+000605091901714004,Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
+000605091901728002,Total,2000,Rural,Central Highlands,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,0.31852025901663467
+000605091901730002,Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000605091901738002,Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.31852025901663467
+000605091901739002,Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
+000605091901743002,Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
+000605190100122004,Total,2000,Urban,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,0.2989428398772079
+000605190100130002,Total,2000,Urban,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.2989428398772079
+000605190700218002,Total,2000,Rural,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,0.31852025901663467
+000605190700235003,Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
+000605190700237002,Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,0.31852025901663467
+000605210300729006,Total,2000,Rural,Central Highlands,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000605210300730002,Total,2000,Rural,Central Highlands,Poorest,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,0.31852025901663467
+000605250500208003,Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000605250500211002,Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000605250500217002,Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
+000605270500708002,Total,2000,Rural,Central Highlands,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
+000605270500718002,Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000605270500721002,Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000605270500724002,Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.31852025901663467
+000605270500728002,Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.31852025901663467
+000605270500752002,Total,2000,Rural,Central Highlands,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
+000605290300913002,Total,2000,Rural,Central Highlands,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.31852025901663467
+000605290300956002,Total,2000,Rural,Central Highlands,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.31852025901663467
+000701010700216001,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
+000701010700225001,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9803921568627451,1.2734079867243675
+000701010700233001,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
+000701010700234002,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
+000701051900734002,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
+000701092101232002,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
+000701092101234004,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
+000701092101249004,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Higher,0,0,0.9285714285714286,1.2734079867243675
+000701131301705004,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
+000701131301706001,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
+000701171702204002,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2734079867243675
+000701212902823002,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
+000701212902831007,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: None,0,0,0.9285714285714286,1.2734079867243675
+000701251902804002,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
+000701292301201001,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9803921568627451,1.2734079867243675
+000701292301208002,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,1,0,20.3125,1.2734079867243675
+000701292301209003,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
+000701292301232002,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.2734079867243675
+000701330503618003,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.2734079867243675
+000701330503627003,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
+000701330503645001,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
+000701391703202002,Total,2000,Rural,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2525982377515248
+000701391703213002,Total,2000,Rural,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2525982377515248
+000701391703230002,Total,2000,Rural,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2525982377515248
+000703010901221004,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2734079867243675
+000703010901222004,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
+000703031902806003,Total,2000,Rural,Southeast,Middle,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2525982377515248
+000703031902817002,Total,2000,Rural,Southeast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2525982377515248
+000703031902833001,Total,2000,Rural,Southeast,Poor,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.2525982377515248
+000705070501601002,Total,2000,Rural,Southeast,Rich,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,,1.2525982377515248
+000707011500210002,Total,2000,Rural,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2525982377515248
+000707091100117004,Total,2000,Rural,Southeast,Poor,"Tay, Thai, Muong, Nung",Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.2525982377515248
+000707091100122002,Total,2000,Rural,Southeast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.2525982377515248
+000707091100123002,Total,2000,Rural,Southeast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.2525982377515248
+000707091100125002,Total,2000,Rural,Southeast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.2525982377515248
+000709090101734004,Total,2000,Rural,Southeast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2525982377515248
+000709150700626007,Total,2000,Rural,Southeast,Rich,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,20.3125,1.2525982377515248
+000711030102008003,Total,2000,Urban,Southeast,Rich,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.2734079867243675
+000711053900130003,Total,2000,Rural,Southeast,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.2525982377515248
+000713013504527002,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
+000713013504529002,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2734079867243675
+000713033300201001,Total,2000,Rural,Southeast,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.2525982377515248
+000713033300220001,Total,2000,Rural,Southeast,Poor,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.2525982377515248
+000713093701209002,Total,2000,Rural,Southeast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2525982377515248
+000713093701210002,Total,2000,Rural,Southeast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2525982377515248
+000713093701224002,Total,2000,Rural,Southeast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.2525982377515248
+000713093701225002,Total,2000,Rural,Southeast,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.2525982377515248
+000713133301114002,Total,2000,Rural,Southeast,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,1,0,20.3125,1.2525982377515248
+000713133301126002,Total,2000,Rural,Southeast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.2525982377515248
+000715010501806005,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
+000715010501827002,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.2734079867243675
+000715010501832001,Total,2000,Urban,Southeast,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.2734079867243675
+000715072702915004,Total,2000,Rural,Southeast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.2525982377515248
+000715151300522002,Total,2000,Rural,Southeast,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,1,0,20.3125,1.2525982377515248
+000715151300526002,Total,2000,Rural,Southeast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.2525982377515248
+000715151300527002,Total,2000,Rural,Southeast,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,1,0,20.3125,1.2525982377515248
+000717051702607001,Total,2000,Rural,Southeast,Poorest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.2525982377515248
+000801252900306004,Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
+000801252900319002,Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,1,0.9285714285714286,1.6509296270191947
+000803070700101002,Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,22.22222222222222,1.6509296270191947
+000803070700128005,Total,2000,Rural,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,20.3125,1.6509296270191947
+000803070700134008,Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
+000803150500913004,Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
+000803150500920002,Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.6509296270191947
+000803150500952004,Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
+000803191702218004,Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
+000803191702227004,Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,1,20.3125,1.6509296270191947
+000803191702232002,Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.6509296270191947
+000805010906302003,Total,2000,Urban,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,1,0.9285714285714286,0.9730737686680445
+000805010906304008,Total,2000,Urban,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.9730737686680445
+000805010906318003,Total,2000,Urban,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.9730737686680445
+000805091902102002,Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.6509296270191947
+000805091902105003,Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,20.3125,1.6509296270191947
+000805091902117003,Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
+000805091902118006,Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
+000805091902158005,Total,2000,Rural,Mekong River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
+000805170703423003,Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6509296270191947
+000807010500906006,Total,2000,Urban,Mekong River Delta,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.9730737686680445
+000807074701406003,Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
+000807074701413004,Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
+000807074701416002,Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6509296270191947
+000807074701418006,Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
+000809031300821004,Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
+000809031300833003,Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,1,0,20.3125,1.6509296270191947
+000809031300834002,Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
+000809031300854004,Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
+000809111301302001,Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
+000809111301313002,Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
+000809111301327001,Total,2000,Rural,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
+000811071100109002,Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6509296270191947
+000811071100113003,Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,20.3125,1.6509296270191947
+000811071100117003,Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
+000811071100136007,Total,2000,Rural,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Higher,0,0,0.9285714285714286,1.6509296270191947
+000811113700802002,Total,2000,Rural,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,20.3125,1.6509296270191947
+000811113700805002,Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9803921568627451,1.6509296270191947
+000811113700827004,Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,1,20.3125,1.6509296270191947
+000811113700832004,Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
+000811113700842002,Total,2000,Rural,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
+000811150100207005,Total,2000,Urban,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.9730737686680445
+000811150100221002,Total,2000,Urban,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.9730737686680445
+000811150100223003,Total,2000,Urban,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.9730737686680445
+000811150100254002,Total,2000,Urban,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.9730737686680445
+000811150100273002,Total,2000,Urban,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,0.9730737686680445
+000813010300326002,Total,2000,Urban,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: None,0,0,20.3125,0.9730737686680445
+000813071302011002,Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
+000813071302026002,Total,2000,Rural,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,1,0,20.3125,1.6509296270191947
+000813130901205001,Total,2000,Rural,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,1,0,20.3125,1.6509296270191947
+000813130901211002,Total,2000,Rural,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9803921568627451,1.6509296270191947
+000815011500120004,Total,2000,Urban,Mekong River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.9730737686680445
+000815011500138006,Total,2000,Urban,Mekong River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.9730737686680445
+000815011500159002,Total,2000,Urban,Mekong River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,0,0.9285714285714286,0.9730737686680445
+000815050305404003,Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,1,20.3125,1.6509296270191947
+000815050305415004,Total,2000,Rural,Mekong River Delta,Rich,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Secondary,0,0,0.9285714285714286,1.6509296270191947
+000815090500410002,Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,1,0,20.3125,1.6509296270191947
+000817011301303006,Total,2000,Urban,Mekong River Delta,Richest,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: Higher,0,0,0.9803921568627451,0.9730737686680445
+000817130302810004,Total,2000,Rural,Mekong River Delta,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: None,0,0,0.9285714285714286,1.6509296270191947
+000817130302813003,Total,2000,Rural,Mekong River Delta,Poorest,Other/Missing,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9803921568627451,1.6509296270191947
+000817130302815002,Total,2000,Rural,Mekong River Delta,Poorest,Other/Missing,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
+000819031300104002,Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.6509296270191947
+000819031300124003,Total,2000,Rural,Mekong River Delta,Poor,Kinh and Hoa,Elderly HoH: YES,Male,Mother Edu: ECE/Primary,0,0,20.3125,1.6509296270191947
+000819031300126003,Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: ECE/Primary,0,0,0.9803921568627451,1.6509296270191947
+000819093100104005,Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,1,0.9285714285714286,1.6509296270191947
+000821071704407004,Total,2000,Rural,Mekong River Delta,Middle,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: ECE/Primary,0,0,0.9285714285714286,1.6509296270191947
+000823011302301001,Total,2000,Urban,Mekong River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: Higher,0,0,0.9803921568627451,0.9730737686680445
+000823011302313005,Total,2000,Urban,Mekong River Delta,Richest,Kinh and Hoa,Elderly HoH: YES,Female,Mother Edu: Secondary,0,0,0.9285714285714286,0.9730737686680445
+000823011302314001,Total,2000,Urban,Mekong River Delta,Richest,Kinh and Hoa,Elderly HoH: NO,Female,Mother Edu: ECE/Primary,0,0,0.9285714285714286,0.9730737686680445
+000823111902915004,Total,2000,Rural,Mekong River Delta,Poorest,Kinh and Hoa,Elderly HoH: NO,Male,Mother Edu: Secondary,0,1,0.9285714285714286,1.6509296270191947

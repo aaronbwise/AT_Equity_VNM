@@ -70,8 +70,6 @@ def generate_HHID(df, country, year, recode):
     # Convert to string
     df["HHID"] = df["HHID"].astype(str)
 
-    add_total_year(df, year)
-
     if df["HHID"].nunique() == df.shape[0]:
         print("HHID is unique")
     else:
@@ -87,6 +85,45 @@ def create_HHID(id1, id2):
     id2 = str(id2).strip().replace(".", "-").replace("-0", "").zfill(3)
 
     return id1 + id2
+
+
+def generate_MEMID(df, country, year, recode):
+    """
+    Function takes a dataframe to generate unique MEMID to
+    facilitate merging data between recodes.
+    """
+    
+    # -- Create unique MEMID -- #
+    memid = config_data["survey_dict"][country][year][recode]["mem_id"]
+
+    df[memid] = df[memid].apply(lambda x: str(x).strip().replace(".", "-").replace("-0", "").zfill(3))
+
+    df["MEMID"] = df["HHID"] + df[memid]
+
+    if df["MEMID"].nunique() == df.shape[0]:
+        print("MEMID is unique")
+    else:
+        print("MEMID is NOT unique")
+
+
+def subset_edu_save(df, country, year, recode):
+    """
+    Function to extract MEMID and Education column from HL file
+    """
+    temp = df
+    # :: COL_NAMES
+    var_edu = config_data["survey_dict"][country][year][recode]["edu"]["col_name"]
+
+    keep_cols = ['MEMID'] + var_edu
+
+    temp = temp[keep_cols]
+
+    out_fn = country + "_" + year + "_" + recode + "_merge" + "_education" + ".csv"
+
+    file_path = Path.cwd() / "data" / year / "merge" / out_fn
+
+    temp.to_csv(file_path, index=False)
+
 
 
 def add_total_year(df, year):
@@ -217,7 +254,7 @@ def export_analyzed_data(df, country, year, recode):
     """
 
     # Identify and select columns for working dataset
-    working_var_idx = df.columns.get_loc('Total')
+    working_var_idx = df.columns.get_loc('WMID')
     working_var_cols = df.columns[working_var_idx:].to_list()
 
     # Add weight variable

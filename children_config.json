@@ -1,0 +1,81 @@
+{
+  "VNM": {
+    "2021": {
+      "ch_age_cat": {
+        "col_names": ["CAGE"]
+      },
+      "excl_bf": {
+        "breastmilk": {
+            "col_names": ["BD3"],
+            "values": ["YES"]
+        },
+        "liquids": {
+            "col_names": ["BD7A", "BD7B1", "BD7B2", "BD7C", "BD7D", "BD7E", "BD7X"],
+            "values": ["NO"]
+        },
+        "solids": {
+            "col_names": ["BD8A", "BD8B", "BD8C", "BD8D", "BD8E", "BD8F", "BD8G", "BD8H", "BD8I", "BD8J",
+            "BD8K", "BD8L", "BD8M", "BD8N", "BD8X"],
+            "values": ["NO"]
+        }
+      },
+      "mdd_ch": {
+        "grains": {
+            "col_names": ["BD8B", "BD8C", "BD8E"],
+            "values": ["YES"]
+        },
+        "legumes": {
+            "col_names": ["BD8M"],
+            "values": ["YES"]
+        },
+        "dairy": {
+            "col_names": ["BD7D", "BD7E", "BD8A", "BD8N"],
+            "values": ["YES"]
+        },
+        "flesh": {
+            "col_names": ["BD8I", "BD8J", "BD8L"],
+            "values": ["YES"]
+        },
+        "eggs": {
+            "col_names": ["BD8K"],
+            "values": ["YES"]
+        },
+        "vitaminA": {
+            "col_names": ["BD8D", "BD8F", "BD8G"],
+            "values": ["YES"]
+        },
+        "other": {
+            "col_names": ["BD8H"],
+            "values": ["YES"]
+        }
+      },
+      "mmf_ch": {
+        "formula_times": {
+            "col_names": ["BD7D1"]
+        },
+        "other_milk_times": {
+            "col_names": ["BD7E1"]
+        },
+        "yogurt_times": {
+            "col_names": ["BD8A1"]
+        },
+        "solid_semi_soft_times": {
+            "col_names": ["BD9"]
+        },
+        "num_times_cat_list": ["ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN OR MORE"],
+        "num_times_float_list": [1, 2, 3, 4, 5, 6, 7]
+      },
+      "sex_ch": {
+        "col_names": ["HL4"],
+        "values": {
+            "male": ["MALE"],
+            "female": ["FEMALE"]
+        }
+      },
+      "momid": {
+        "col_names": ["UF4"]
+      },
+      "mom_edu_fn": "VNM_2021_listing_merge_education.csv"
+    }
+  }
+}

@@ -11,7 +11,7 @@ import statsmodels.api as sm
 from aw_analytics import mean_wt
 
 
-def read_csv_file(country, year, recode, file_type='working'):
+def read_csv_file(country, recode, year=None, file_type='combined'):
     """
     Function to read in specified file.
     """
@@ -31,7 +31,10 @@ def read_csv_file(country, year, recode, file_type='working'):
     ## Generate full data file path
     file_path = data_dir / fn
 
-    df = pd.read_csv(file_path)
+    if file_type == 'working':
+        df = pd.read_csv(file_path, dtype={"WMID": "string"})
+    else:
+        df = pd.read_csv(file_path)
 
     print(f"The file -- {fn} -- has the following shape: Rows: {df.shape[0]}; Columns: {df.shape[1]}")
 
@@ -84,7 +87,7 @@ def extract_regression_params(df, var_dep, ind_var):
 
 def create_reduced_df(df, var_dep, ind_var, var_year, weight):
     """
-    Function to create reduced df for regression analysis
+    Function to create reduced df for regression analysis and charts
     """
     temp = df
 

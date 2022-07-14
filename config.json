@@ -63,6 +63,7 @@
                     "filename": "hl_2021.sav",
                     "cluster_id": "HH1",
                     "household_id": "HH2",
+                    "mem_id": "HL1",
                     "relationship_hoh": {
                         "col_name": "HL3",
                         "value": "HEAD"
@@ -81,6 +82,9 @@
                         "col_name": "HL6",
                         "rename": {"HL6": "elderly_hoh"},
                         "replace": null
+                    },
+                    "edu": {
+                        "col_name": ["ED5A"]
                     }
                 },
                 "women": {

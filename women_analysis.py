@@ -11,6 +11,8 @@ import pandas as pd
 config_path = Path.cwd().joinpath("women_config.json")
 config_data = json.load(open(config_path))
 
+
+
 ### --- OUTCOME VARIABLES --- ###
 
 def generate_str_replace_dict(df, country, year, cat_var):
@@ -370,8 +372,6 @@ def mother_edu_none_to_null(df, country, year):
 
     if year == '2000':
         df[var_mother_edu] = np.where(df[var_mother_edu] == 'None', np.nan, df[var_mother_edu])
-
-        print(f"Adjusted mother education value are: \n {df[var_mother_edu].value_counts(dropna=False)}")
 
     else:
         pass
