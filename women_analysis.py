@@ -8,8 +8,8 @@ import numpy as np
 import pandas as pd
 
 # -- Read in survey configuration information -- #
-config_path = Path.cwd().joinpath("women_config.json")
-config_data = json.load(open(config_path))
+config_path_w = Path.cwd().joinpath("women_config.json")
+config_data_w = json.load(open(config_path_w))
 
 config_path_c = Path.cwd().joinpath("children_config.json")
 config_data_c = json.load(open(config_path_c))
@@ -24,23 +24,23 @@ def generate_str_replace_dict(country, year, cat_var):
     """
     if cat_var == "anc_4_visits":
         str_replace_dict = {
-            config_data[country][year]["anc_4_visits"]["col_names"][0]: 
-            config_data[country][year]["anc_4_visits"]["convert_values"]
+            config_data_w[country][year]["anc_4_visits"]["col_names"][0]: 
+            config_data_w[country][year]["anc_4_visits"]["convert_values"]
             }
     elif cat_var == "pnc_mother":
         str_replace_dict = {
-            config_data[country][year]["pnc_mother"]["sub_indicators"]["pnc_2_days"]["time_num"]["col_names"][0]:
-            config_data[country][year]["pnc_mother"]["sub_indicators"]["pnc_2_days"]["time_num"]["convert_values"]
+            config_data_w[country][year]["pnc_mother"]["sub_indicators"]["pnc_2_days"]["time_num"]["col_names"][0]:
+            config_data_w[country][year]["pnc_mother"]["sub_indicators"]["pnc_2_days"]["time_num"]["convert_values"]
             }
     elif cat_var == "low_bw":
         str_replace_dict = {
-            config_data[country][year]["low_bw"]["col_names"][0]: 
-            config_data[country][year]["low_bw"]["convert_values"]
+            config_data_w[country][year]["low_bw"]["col_names"][0]: 
+            config_data_w[country][year]["low_bw"]["convert_values"]
             }
     elif cat_var == "early_bf":
         str_replace_dict = {
-            config_data[country][year]["early_bf"]["time_num"]["col_names"][0]: 
-            config_data[country][year]["early_bf"]["time_num"]["convert_values"]
+            config_data_w[country][year]["early_bf"]["time_num"]["col_names"][0]: 
+            config_data_w[country][year]["early_bf"]["time_num"]["convert_values"]
             }
     else:
         pass
@@ -53,13 +53,13 @@ def create_anc_4_visits(df, country, year):
     Function to create ANC 4+ visits variable [anc_4_visits]
     """
     # :: COL_NAMES
-    var_anc_4 = config_data[country][year]["anc_4_visits"]["col_names"][0]
+    var_anc_4 = config_data_w[country][year]["anc_4_visits"]["col_names"][0]
 
     ## Cast categorical values with str
     df[var_anc_4] = df[var_anc_4].astype(str)
 
     ## Replace str value with values
-    str_replace_dict = generate_str_replace_dict(df, country, year, "anc_4_visits")
+    str_replace_dict = generate_str_replace_dict(country, year, "anc_4_visits")
     df = df.replace(str_replace_dict)
 
     ## Cast str values to float
@@ -76,14 +76,14 @@ def create_anc_3_components(df, country, year):
     Function to create ANC 3 components variable [anc_3_components]
     """
     # :: COL_NAMES
-    var_anc_3_comp_1 = config_data[country][year]["anc_3_components"]["col_names"][0]
-    var_anc_3_comp_2 = config_data[country][year]["anc_3_components"]["col_names"][1]
-    var_anc_3_comp_3 = config_data[country][year]["anc_3_components"]["col_names"][2]
+    var_anc_3_comp_1 = config_data_w[country][year]["anc_3_components"]["col_names"][0]
+    var_anc_3_comp_2 = config_data_w[country][year]["anc_3_components"]["col_names"][1]
+    var_anc_3_comp_3 = config_data_w[country][year]["anc_3_components"]["col_names"][2]
 
     var_anc_3_comp_cols = [var_anc_3_comp_1, var_anc_3_comp_2, var_anc_3_comp_3]
 
     # :: VALUES
-    anc_3_comp_values = config_data[country][year]["anc_3_components"]["values"]
+    anc_3_comp_values = config_data_w[country][year]["anc_3_components"]["values"]
 
     # Create indicator
     df["anc_3_components"] = np.where(
@@ -98,10 +98,10 @@ def create_inst_delivery(df, country, year):
     Function to create institutional delivery variable [inst_delivery]
     """
     # :: COL_NAMES
-    var_inst_delivery = config_data[country][year]["inst_delivery"]["col_names"][0]
+    var_inst_delivery = config_data_w[country][year]["inst_delivery"]["col_names"][0]
 
     # :: VALUES
-    inst_delivery_values = config_data[country][year]["inst_delivery"]["values"]
+    inst_delivery_values = config_data_w[country][year]["inst_delivery"]["values"]
 
     # -- Create indicator
     df["inst_delivery"] = np.where(
@@ -116,10 +116,10 @@ def create_caesarean_del(df, country, year):
     Function to create caesarean delivery variable [caesarean_del]
     """
     # :: COL_NAMES
-    var_caesarean_del = config_data[country][year]["caesarean_del"]["col_names"][0]
+    var_caesarean_del = config_data_w[country][year]["caesarean_del"]["col_names"][0]
 
     # :: VALUES
-    caesarean_del_values = config_data[country][year]["caesarean_del"]["values"]
+    caesarean_del_values = config_data_w[country][year]["caesarean_del"]["values"]
 
     # Create indicator
     df["caesarean_del"] = np.where(df[var_caesarean_del].isin(caesarean_del_values), 100, 0)
@@ -136,12 +136,12 @@ def create_pnc_mother(df, country, year):
 
     # :: COL NAMES
 
-    var_after_birth_facility = config_data[country][year]["pnc_mother"]["sub_indicators"]["health_check_after_birth"]["col_names"][0]
-    var_after_birth_home = config_data[country][year]["pnc_mother"]["sub_indicators"]["health_check_after_birth"]["col_names"][1]
+    var_after_birth_facility = config_data_w[country][year]["pnc_mother"]["sub_indicators"]["health_check_after_birth"]["col_names"][0]
+    var_after_birth_home = config_data_w[country][year]["pnc_mother"]["sub_indicators"]["health_check_after_birth"]["col_names"][1]
 
     # :: VALUES
 
-    after_birth_values = config_data[country][year]["pnc_mother"]["sub_indicators"]["health_check_after_birth"]["values"]
+    after_birth_values = config_data_w[country][year]["pnc_mother"]["sub_indicators"]["health_check_after_birth"]["values"]
 
     ## Create sub-indicator
     df["health_check_after_birth"] = np.where(((df[var_after_birth_facility].isin(after_birth_values)) | \
@@ -150,23 +150,23 @@ def create_pnc_mother(df, country, year):
     # --- 2. Post-natal care visit within 2 days
 
     # :: COL NAMES
-    var_time_cat = config_data[country][year]["pnc_mother"]["sub_indicators"]["pnc_2_days"]["time_cat"]["col_names"][0]
-    var_time_num = config_data[country][year]["pnc_mother"]["sub_indicators"]["pnc_2_days"]["time_num"]["col_names"][0]
-    var_pnc_health_provider = config_data[country][year]["pnc_mother"]["sub_indicators"]["pnc_2_days"]["pnc_health_provider"]["col_names"]
+    var_time_cat = config_data_w[country][year]["pnc_mother"]["sub_indicators"]["pnc_2_days"]["time_cat"]["col_names"][0]
+    var_time_num = config_data_w[country][year]["pnc_mother"]["sub_indicators"]["pnc_2_days"]["time_num"]["col_names"][0]
+    var_pnc_health_provider = config_data_w[country][year]["pnc_mother"]["sub_indicators"]["pnc_2_days"]["pnc_health_provider"]["col_names"]
 
     ## Cast categorical values with str
     df[var_time_num] = df[var_time_num].astype(str)
 
     ## Replace str value with values
-    str_replace_dict = generate_str_replace_dict(df, country, year, "pnc_mother")
+    str_replace_dict = generate_str_replace_dict(country, year, "pnc_mother")
     df = df.replace(str_replace_dict)
 
     ## Cast str values to float
     df[var_time_num] = pd.to_numeric(df[var_time_num], errors="coerce")
 
     # :: VALUES
-    time_cat_days_values = config_data[country][year]["pnc_mother"]["sub_indicators"]["pnc_2_days"]["time_cat"]["values"][0]
-    time_cat_hours_values = config_data[country][year]["pnc_mother"]["sub_indicators"]["pnc_2_days"]["time_cat"]["values"][1]
+    time_cat_days_values = config_data_w[country][year]["pnc_mother"]["sub_indicators"]["pnc_2_days"]["time_cat"]["values"][0]
+    time_cat_hours_values = config_data_w[country][year]["pnc_mother"]["sub_indicators"]["pnc_2_days"]["time_cat"]["values"][1]
 
     ## Create sub-indicator
     df["pnc_2_days"] = np.where(((df[var_time_cat] == time_cat_hours_values) | ((df[var_time_cat] == time_cat_days_values) & (df[var_time_num] <= 2))), 100, 0)
@@ -183,27 +183,27 @@ def create_pnc_mother(df, country, year):
     return df
 
 
-def create_low_bw(df, country, year):
-    """
-    Function to create Low Birthweight [low_bw]
-    """
-    # :: COL_NAMES
-    var_low_bw = config_data[country][year]["low_bw"]["col_names"][0]
+# def create_low_bw(df, country, year):
+#     """
+#     Function to create Low Birthweight [low_bw]
+#     """
+#     # :: COL_NAMES
+#     var_low_bw = config_data_w[country][year]["low_bw"]["col_names"][0]
 
-    ## Cast categorical values with str
-    df[var_low_bw] = df[var_low_bw].astype(str)
+#     ## Cast categorical values with str
+#     df[var_low_bw] = df[var_low_bw].astype(str)
 
-    ## Replace str value with values
-    str_replace_dict = generate_str_replace_dict(df, country, year, "low_bw")
-    df = df.replace(str_replace_dict)
+#     ## Replace str value with values
+#     str_replace_dict = generate_str_replace_dict(country, year, "low_bw")
+#     df = df.replace(str_replace_dict)
 
-    ## Cast str values to float
-    df[var_low_bw] = pd.to_numeric(df[var_low_bw], errors="coerce")
+#     ## Cast str values to float
+#     df[var_low_bw] = pd.to_numeric(df[var_low_bw], errors="coerce")
 
-    # Create indicator
-    df["low_bw"] = np.where(df[var_low_bw] < 2.5, 100, 0)
+#     # Create indicator
+#     df["low_bw"] = np.where(df[var_low_bw] < 2.5, 100, 0)
 
-    return df
+#     return df
 
 
 def create_early_bf(df, country, year):
@@ -214,8 +214,8 @@ def create_early_bf(df, country, year):
     df = update_early_bf_variables(df, country, year)
 
     # :: COL_NAMES
-    var_time_cat = config_data[country][year]["early_bf"]["time_cat"]["col_names"][0]
-    var_time_num = config_data[country][year]["early_bf"]["time_num"]["col_names"][0]
+    var_time_cat = config_data_w[country][year]["early_bf"]["time_cat"]["col_names"][0]
+    var_time_num = config_data_w[country][year]["early_bf"]["time_num"]["col_names"][0]
 
     ## Cast categorical values with str
     df[var_time_num] = df[var_time_num].astype(str)
@@ -224,9 +224,9 @@ def create_early_bf(df, country, year):
     df[var_time_num] = pd.to_numeric(df[var_time_num], errors="coerce")
 
     # :: VALUES
-    time_cat_immediately_values = config_data[country][year]["early_bf"]["time_cat"]["values"][0]
-    time_cat_hours_values = config_data[country][year]["early_bf"]["time_cat"]["values"][1]
-    time_cat_minute_values = config_data[country][year]["early_bf"]["time_cat"]["values"][2]
+    time_cat_immediately_values = config_data_w[country][year]["early_bf"]["time_cat"]["values"][0]
+    time_cat_hours_values = config_data_w[country][year]["early_bf"]["time_cat"]["values"][1]
+    time_cat_minute_values = config_data_w[country][year]["early_bf"]["time_cat"]["values"][2]
 
     # Create indicator
     df["early_bf"] = np.where((df[var_time_cat] == time_cat_immediately_values) | \
@@ -237,14 +237,15 @@ def create_early_bf(df, country, year):
 
 def create_low_bw(df, country, year):
     """
-    Function to create Mother education [mother_edu]
+    Function to create Low Birthweight [low_bw]
     """
 
     # :: COL_NAMES
-    var_birth_size = config_data[country][year]["low_bw"]["birth_size"]["col_names"][0]
-    var_birth_weight = config_data[country][year]["low_bw"]["birth_weight"]["col_names"][0]
+    var_birth_size = config_data_w[country][year]["low_bw"]["birth_size"]["col_names"][0]
+    var_birth_weight = config_data_w[country][year]["low_bw"]["birth_weight"]["col_names"][0]
 
-    ## Cast categorical values with str
+    ## Cast categorical values to str
+    df[var_birth_size] = df[var_birth_size].astype(str)
     df[var_birth_weight] = df[var_birth_weight].astype(str)
 
     ## Cast str values to float
@@ -253,16 +254,17 @@ def create_low_bw(df, country, year):
     # If 2000, divide bw by 1000 (convert g to kg)
     df = convert_bw_g_to_kg(df, country, year)
 
-    # Combine groups if any less than 25                 ---------------- WAIT ON JOEL/ROBERT REPLY
-
-
     # Create bw_less_25 variable
-    df['bw_less_25'] = np.where(df[var_birth_weight] < 2.5, 1, 0)
+    df['bw_less_25'] = np.where(df[var_birth_weight] < 2.5, 1, np.where(df[var_birth_weight].isnull(), np.nan, 0))
+
     # Create bw_equal_25 variable
-    df['bw_equal_25'] = np.where(df[var_birth_weight] == 2.5, 1, 0)
-    
+    df['bw_equal_25'] = np.where(df[var_birth_weight] == 2.5, 1, np.where(df[var_birth_weight].isnull(), np.nan, 0))
+
+    # Create bw_available variable
+    df['bw_available'] = np.where(df[var_birth_weight].isnull(), 0, 1)
+
     # Create agg_value_prop_dict
-    agg_value_prop_dict = calc_low_bw_props(df, var_birth_size, 'bw_less_25', 'bw_equal_25')
+    agg_value_prop_dict = calc_low_bw_props(df, var_birth_size)
 
     print(f"agg_value_prop_dict is: \n {agg_value_prop_dict}")
 
@@ -272,7 +274,26 @@ def create_low_bw(df, country, year):
     return df
 
 
-def create_mother_edu(df, country, year, recode='women'):
+
+def calc_low_bw_props(df, agg_value_col):
+    """
+    Calculate proportions by group for two columns
+    """
+    agg_value_list = list(df[agg_value_col].unique())
+
+    agg_value_prop_dict = {}
+
+    for agg_value in agg_value_list:
+        numerator = (df.loc[df[agg_value_col] == agg_value]['bw_less_25'].sum()) + ((df.loc[df[agg_value_col] == agg_value]['bw_equal_25'].sum()) * 0.25)
+        denominator = (df.loc[df[agg_value_col] == agg_value]['bw_available'].sum())
+        
+        agg_value_prop_dict[agg_value] = numerator / denominator
+
+    return agg_value_prop_dict
+
+
+
+def create_mother_edu(df, country, year, recode):
     """
     Function to create Mother education [mother_edu]
     """
@@ -281,7 +302,7 @@ def create_mother_edu(df, country, year, recode='women'):
     if recode == 'children':
         config_data = config_data_c
     else:
-        config_data = config_data
+        config_data = config_data_w
 
     # If 2000, convert None to NaN
     df = mother_edu_none_to_null(df, country, year, recode)
@@ -301,17 +322,19 @@ def create_mother_edu(df, country, year, recode='women'):
 
     return df
 
+
+
 def subset_women_file(df, country, year):
     """
     Function to subset women file for 1. Complete and 2. birth in past 2 years
     """
     # :: COL_NAMES
-    var_women_complete = config_data[country][year]["women_file_subset"]["col_names"]["quest_complete"][0]
-    var_birth_2_years = config_data[country][year]["women_file_subset"]["col_names"]["birth_2_years"][0]
+    var_women_complete = config_data_w[country][year]["women_file_subset"]["col_names"]["quest_complete"][0]
+    var_birth_2_years = config_data_w[country][year]["women_file_subset"]["col_names"]["birth_2_years"][0]
 
     # :: VALUES
-    women_complete_values = config_data[country][year]["women_file_subset"]["values"]["quest_complete"][0]
-    birth_2_years_values = config_data[country][year]["women_file_subset"]["values"]["birth_2_years"][0]
+    women_complete_values = config_data_w[country][year]["women_file_subset"]["values"]["quest_complete"][0]
+    birth_2_years_values = config_data_w[country][year]["women_file_subset"]["values"]["birth_2_years"][0]
 
     # Subset df
     df = df[(df[var_women_complete] == women_complete_values) & \
@@ -331,8 +354,8 @@ def update_early_bf_variables(df, country, year):
     if year == '2006':
 
         # :: COL_NAMES
-        var_time_cat = config_data[country][year]["early_bf"]["time_cat"]["col_names"][0]
-        var_time_num = config_data[country][year]["early_bf"]["time_num"]["col_names"][0]
+        var_time_cat = config_data_w[country][year]["early_bf"]["time_cat"]["col_names"][0]
+        var_time_num = config_data_w[country][year]["early_bf"]["time_num"]["col_names"][0]
 
         df[var_time_cat] = np.where(df[var_time_num] == "Immediately", "Immediately", df[var_time_cat])
 
@@ -342,19 +365,6 @@ def update_early_bf_variables(df, country, year):
     return df
 
 
-def calc_low_bw_props(df, agg_value_col, group_col_1, group_col_2):
-    """
-    Calculate proportions by group for two columns
-    """
-    agg_value_list = list(df[agg_value_col].unique())        ##### TRY DROPPING DK/MISSING !!!!
-
-    agg_value_prop_dict = {}
-
-    for agg_value in agg_value_list:
-        agg_value_prop_dict[agg_value] = (((df.loc[df[agg_value_col] == agg_value][group_col_1].sum()) + \
-            ((df.loc[df[agg_value_col] == agg_value][group_col_2].sum() * 0.25))) / ((df[agg_value_col] == agg_value).sum()))
-
-    return agg_value_prop_dict
 
 def convert_bw_g_to_kg(df, country, year):
     """
@@ -363,7 +373,7 @@ def convert_bw_g_to_kg(df, country, year):
     if year == '2000':
 
         # :: COL_NAMES
-        var_birth_weight = config_data[country][year]["low_bw"]["birth_weight"]["col_names"][0]
+        var_birth_weight = config_data_w[country][year]["low_bw"]["birth_weight"]["col_names"][0]
 
         df[var_birth_weight] = df[var_birth_weight] / 1000
 
@@ -372,6 +382,8 @@ def convert_bw_g_to_kg(df, country, year):
 
     return df
 
+
+
 def mother_edu_none_to_null(df, country, year, recode):
     """
     Function to convert None to NaN for survey year 2000
@@ -379,8 +391,9 @@ def mother_edu_none_to_null(df, country, year, recode):
     # :: COL_NAMES
     if recode == 'children':
         config_data = config_data_c
+
     else:
-        pass
+        config_data = config_data_w
 
     var_mother_edu = config_data[country][year]["mother_edu"]["col_names"][0]
 

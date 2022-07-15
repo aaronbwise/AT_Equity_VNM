@@ -38,7 +38,7 @@ def read_csv_file(country, recode, year=None, file_type='combined'):
 
     print(f"The file -- {fn} -- has the following shape: Rows: {df.shape[0]}; Columns: {df.shape[1]}")
 
-    df = rename_wmweight(df, year)
+    df = rename_weight(df, recode, year)
 
     return df
 
@@ -63,7 +63,7 @@ def save_combined(df, country, recode):
 
 
 ## Top level function
-def extract_regression_params(df, var_dep, ind_var):
+def extract_regression_params(df, var_dep, ind_var, recode):
     """
     Top level function to get regression params for bivariate stats
     """
@@ -73,7 +73,11 @@ def extract_regression_params(df, var_dep, ind_var):
 
     # Set year and weight vars
     var_year = ['Year']
-    weight = ['wmweight']
+    if recode == 'women':
+        weight = ['wmweight']
+
+    else:
+        weight = ['chweight']
 
     df, year_min_max_list = create_reduced_df(df, var_dep, ind_var, var_year, weight)
 
@@ -242,7 +246,7 @@ def create_bivariate_var_dep(df):
     temp = df
     
     # 1. Mother's Education
-    none_prim_values = ['Mother Edu: None', 'Mother Edu: ECE/Primary']
+    none_prim_values = ['Mother Edu: None/ECE', 'Mother Edu: Primary']
     temp['mother_edu_biv'] = np.where(temp['mother_edu'].isin(none_prim_values), 'None_Primary', 'Secondary_Higher')
 
     # 2. Ethnicity HoH
@@ -254,12 +258,15 @@ def create_bivariate_var_dep(df):
 
 
 ## --- Helper functions to make comparable across surveys
-def rename_wmweight(df, year):
+def rename_weight(df, recode, year):
     """
-    Rename WMWEIGHT in 2000 file
+    Rename WMWEIGHT and CHWEIGHT in 2000 file
     """
     if year == '2000':
-        df.rename(columns = {'WMWEIGHT': 'wmweight'}, inplace = True)
+        if recode == 'women':
+            df.rename(columns = {'WMWEIGHT': 'wmweight'}, inplace = True)
+        else:
+            df.rename(columns = {'CHWEIGHT': 'chweight'}, inplace = True)
     else:
         pass
 

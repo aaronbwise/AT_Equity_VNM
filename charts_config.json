@@ -1,0 +1,22 @@
+{
+  "women": {
+    "titles_dict": {
+      "anc_4_visits": "Women attended 4+ times by any provider: ",
+      "anc_3_components": "Women with 3 components of ANC tested at least once: ",
+      "inst_delivery": "Delivery in a health facility: ",
+      "caesarean_del": "Caesarean delivery: ",
+      "pnc_mother": "Mother received post-partum care (2 days): ",
+      "low_bw": "Baby had low birthweight (< 2.5kg): ",
+      "early_bf": "Initiated breastfeeding within 1 hour: "
+    },
+    "ind_vars_dict": {
+      "residence": "Urban vs. Rural",
+      "region": "Regions",
+      "mother_edu": "Woman's Education",
+      "wealth_q": "Wealth Quintiles",
+      "eth_hoh": "Ethnicity",
+      "elderly_hoh": "Elderly-Headed Households",
+      "sex_hoh": "Sex Head of Household "
+    }
+  }
+}

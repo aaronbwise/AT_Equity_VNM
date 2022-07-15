@@ -77,7 +77,7 @@ def create_sex_ch(df, country, year):
     sex_ch_male_values = config_data[country][year]["sex_ch"]["values"]["male"][0]
 
     # Create indicator
-    df["sex_ch"] = np.where(df[var_sex_ch] == sex_ch_male_values, 'Male', 'Female')
+    df["sex_ch"] = np.where(df[var_sex_ch] == sex_ch_male_values, 'CH Sex: Male', 'CH Sex: Female')
 
     return df
 
@@ -206,7 +206,6 @@ def create_mmf_ch(df, country, year):
     df['yogurt_times'] = df[var_yogurt_times].map(num_times_dict).astype(float).fillna(0)
     df['solid_semi_soft_times'] = df[var_solid_semi_soft_times].map(num_times_dict).astype(float).fillna(0)
 
-    # print(f"solid_semi_soft_times value_counts is: \n {df['solid_semi_soft_times'].value_counts(dropna=False)}")
 
     ## BREASTFED: Age 6-8 months with 2 soft, semi-soft, solid feeds
     df['mmf_bf_68'] = np.where((df['breastmilk'] == 100) & (df['solid_semi_soft_times'] >= 2), 100, 0)

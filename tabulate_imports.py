@@ -1,4 +1,4 @@
-from tabulate import (
+from tabulate_vars import (
     read_csv_file,
     concatenate_dfs,
     save_combined,
