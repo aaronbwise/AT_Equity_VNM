@@ -1,2 +1,0 @@
-This ZIP-file was up-loaded to www.childinfo.org on 17-03-2009 and replaces the file 
-"MICS_revised_syntax_as_of_01-02-2008.zip".This new ZIP-file includes the lifetables which were missing in "MICS_revised_syntax_as_of_01-02-2008.zip".
