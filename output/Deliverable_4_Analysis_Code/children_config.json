@@ -1,0 +1,559 @@
+{
+  "VNM": {
+    "2021": {
+      "ch_age_cat": {
+        "col_names": ["CAGE"]
+      },
+      "excl_bf": {
+        "breastmilk": {
+          "col_names": ["BD3"],
+          "values": ["YES"]
+        },
+        "liquids": {
+          "col_names": [
+            "BD7A",
+            "BD7B1",
+            "BD7B2",
+            "BD7C",
+            "BD7D",
+            "BD7E",
+            "BD7X"
+          ],
+          "values": ["YES"]
+        },
+        "solids": {
+          "col_names": [
+            "BD8A",
+            "BD8B",
+            "BD8C",
+            "BD8D",
+            "BD8E",
+            "BD8F",
+            "BD8G",
+            "BD8H",
+            "BD8I",
+            "BD8J",
+            "BD8K",
+            "BD8L",
+            "BD8M",
+            "BD8N",
+            "BD8X"
+          ],
+          "values": ["YES"]
+        }
+      },
+      "mdd_ch": {
+        "grains": {
+          "col_names": ["BD8B", "BD8C", "BD8E"],
+          "values": ["YES"]
+        },
+        "legumes": {
+          "col_names": ["BD8M"],
+          "values": ["YES"]
+        },
+        "dairy": {
+          "col_names": ["BD7D", "BD7E", "BD8A", "BD8N"],
+          "values": ["YES"]
+        },
+        "flesh": {
+          "col_names": ["BD8I", "BD8J", "BD8L"],
+          "values": ["YES"]
+        },
+        "eggs": {
+          "col_names": ["BD8K"],
+          "values": ["YES"]
+        },
+        "vitaminA": {
+          "col_names": ["BD8D", "BD8F", "BD8G"],
+          "values": ["YES"]
+        },
+        "other": {
+          "col_names": ["BD8H"],
+          "values": ["YES"]
+        }
+      },
+      "mmf_ch": {
+        "formula_times": {
+          "col_names": ["BD7D1"]
+        },
+        "other_milk_times": {
+          "col_names": ["BD7E1"]
+        },
+        "yogurt_times": {
+          "col_names": ["BD8A1"]
+        },
+        "solid_semi_soft_times": {
+          "col_names": ["BD9"]
+        },
+        "num_times_cat_list": [
+          "ONE",
+          "TWO",
+          "THREE",
+          "FOUR",
+          "FIVE",
+          "SIX",
+          "SEVEN OR MORE"
+        ],
+        "num_times_float_list": [1, 2, 3, 4, 5, 6, 7]
+      },
+      "sex_ch": {
+        "col_names": ["HL4"],
+        "values": {
+          "male": ["MALE"],
+          "female": ["FEMALE"]
+        }
+      },
+      "momid": {
+        "col_names": ["UF4"]
+      },
+      "mother_edu": {
+        "col_names": ["ED5A_y"],
+        "values": {
+          "ece": ["ECE"],
+          "primary": ["PRIMARY"],
+          "secondary": [
+            "LOWER SECONDARY",
+            "UPPER SECONDARY",
+            "VOCATIONAL HIGH SCHOOL"
+          ],
+          "higher": ["UNIVERSITY/COLLEGE/HIGHER"],
+          "DK": ["DK"]
+        }
+      },
+      "mom_edu_fn": "VNM_2021_listing_merge_education.csv",
+      "children_file_subset": {
+        "col_names": ["UF17"],
+        "values": ["COMPLETED"]
+      }
+    },
+    "2014": {
+      "ch_age_cat": {
+        "col_names": ["CAGE"]
+      },
+      "excl_bf": {
+        "breastmilk": {
+          "col_names": ["BD3"],
+          "values": ["Yes"]
+        },
+        "liquids": {
+          "col_names": [
+            "BD7A",
+            "BD7B1",
+            "BD7B2",
+            "BD7C",
+            "BD7D",
+            "BD7E",
+            "BD7F"
+          ],
+          "values": ["Yes"]
+        },
+        "solids": {
+          "col_names": [
+            "BD8A",
+            "BD8B",
+            "BD8C",
+            "BD8D",
+            "BD8E",
+            "BD8F",
+            "BD8G",
+            "BD8H",
+            "BD8I",
+            "BD8J",
+            "BD8K",
+            "BD8L",
+            "BD8M",
+            "BD8N",
+            "BD8O"
+          ],
+          "values": ["Yes"]
+        }
+      },
+      "mdd_ch": {
+        "grains": {
+          "col_names": ["BD8B", "BD8C", "BD8E"],
+          "values": ["Yes"]
+        },
+        "legumes": {
+          "col_names": ["BD8M"],
+          "values": ["Yes"]
+        },
+        "dairy": {
+          "col_names": ["BD7D", "BD7E", "BD8A", "BD8N"],
+          "values": ["Yes"]
+        },
+        "flesh": {
+          "col_names": ["BD8I", "BD8J", "BD8L"],
+          "values": ["Yes"]
+        },
+        "eggs": {
+          "col_names": ["BD8K"],
+          "values": ["Yes"]
+        },
+        "vitaminA": {
+          "col_names": ["BD8D", "BD8F", "BD8G"],
+          "values": ["Yes"]
+        },
+        "other": {
+          "col_names": ["BD8H"],
+          "values": ["Yes"]
+        }
+      },
+      "mmf_ch": {
+        "formula_times": {
+          "col_names": ["BD7DN"]
+        },
+        "other_milk_times": {
+          "col_names": ["BD7EN"]
+        },
+        "yogurt_times": {
+          "col_names": ["BD8AN"]
+        },
+        "solid_semi_soft_times": {
+          "col_names": ["BD11"]
+        },
+        "num_times_cat_list": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, "7+"],
+        "num_times_float_list": [1, 2, 3, 4, 5, 6, 7]
+      },
+      "sex_ch": {
+        "col_names": ["HL4"],
+        "values": {
+          "male": ["Male"],
+          "female": ["Female"]
+        }
+      },
+      "momid": {
+        "col_names": ["UF6"]
+      },
+      "mother_edu": {
+        "col_names": ["ED4A_y"],
+        "values": {
+          "ece": ["Preschool"],
+          "primary": ["Primary"],
+          "secondary": [
+            "Lower Secondary",
+            "Upper Secondary",
+            "Professional School"
+          ],
+          "higher": ["College/University & above"],
+          "DK": ["DK"]
+        }
+      },
+      "mom_edu_fn": "VNM_2014_listing_merge_education.csv",
+      "children_file_subset": {
+        "col_names": ["UF9"],
+        "values": ["Completed"]
+      }
+    },
+    "2011": {
+      "ch_age_cat": {
+        "col_names": ["CAGE"]
+      },
+      "excl_bf": {
+        "breastmilk": {
+          "col_names": ["BF2"],
+          "values": ["Yes"]
+        },
+        "liquids": {
+          "col_names": [
+            "BF3",
+            "BF4",
+            "BF6",
+            "BF8",
+            "BF9",
+            "BF12",
+            "BF15"
+          ],
+          "values": ["Yes"]
+        },
+        "solids": {
+          "col_names": [
+            "BF13",
+            "BF16"
+          ],
+          "values": ["Yes"]
+        }
+      },
+      "mdd_ch": {
+        "grains": {
+          "col_names": ["BD8B", "BD8C", "BD8E"],
+          "values": ["Yes"]
+        },
+        "legumes": {
+          "col_names": ["BD8M"],
+          "values": ["Yes"]
+        },
+        "dairy": {
+          "col_names": ["BD7D", "BD7E", "BD8A", "BD8N"],
+          "values": ["Yes"]
+        },
+        "flesh": {
+          "col_names": ["BD8I", "BD8J", "BD8L"],
+          "values": ["Yes"]
+        },
+        "eggs": {
+          "col_names": ["BD8K"],
+          "values": ["Yes"]
+        },
+        "vitaminA": {
+          "col_names": ["BD8D", "BD8F", "BD8G"],
+          "values": ["Yes"]
+        },
+        "other": {
+          "col_names": ["BD8H"],
+          "values": ["Yes"]
+        }
+      },
+      "mmf_ch": {
+        "formula_times": {
+          "col_names": ["BF5"]
+        },
+        "other_milk_times": {
+          "col_names": ["BF7"]
+        },
+        "yogurt_times": {
+          "col_names": ["BF14"]
+        },
+        "solid_semi_soft_times": {
+          "col_names": ["BF17"]
+        },
+        "num_times_cat_list": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+        "num_times_float_list": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+      },
+      "sex_ch": {
+        "col_names": ["HL4"],
+        "values": {
+          "male": ["Male"],
+          "female": ["Female"]
+        }
+      },
+      "momid": {
+        "col_names": ["UF6"]
+      },
+      "mother_edu": {
+        "col_names": ["ED4A_y"],
+        "values": {
+            "ece": ["Preschool"],
+            "primary": ["Primary"],
+            "secondary": [
+              "Lower Secondary",
+              "Upper Secondary",
+              "Professional School"
+            ],
+            "higher": ["College/University and above"],
+            "DK": ["DK"]
+          }
+      },
+      "mom_edu_fn": "VNM_2011_listing_merge_education.csv",
+      "children_file_subset": {
+        "col_names": ["UF9"],
+        "values": ["Completed"]
+      }
+    },
+    "2006": {
+        "ch_age_cat": {
+          "col_names": ["cage"]
+        },
+        "excl_bf": {
+          "breastmilk": {
+            "col_names": ["bf2"],
+            "values": ["Yes"]
+          },
+          "liquids": {
+            "col_names": [
+              "bf3b",
+              "bf3c",
+              "bf3e",
+              "bf3f",
+              "bf3g"
+            ],
+            "values": ["Yes"]
+          },
+          "solids": {
+            "col_names": [
+              "bf3h"
+            ],
+            "values": ["Yes"]
+          }
+        },
+        "mdd_ch": {
+          "grains": {
+            "col_names": ["BD8B", "BD8C", "BD8E"],
+            "values": ["Yes"]
+          },
+          "legumes": {
+            "col_names": ["BD8M"],
+            "values": ["Yes"]
+          },
+          "dairy": {
+            "col_names": ["BD7D", "BD7E", "BD8A", "BD8N"],
+            "values": ["Yes"]
+          },
+          "flesh": {
+            "col_names": ["BD8I", "BD8J", "BD8L"],
+            "values": ["Yes"]
+          },
+          "eggs": {
+            "col_names": ["BD8K"],
+            "values": ["Yes"]
+          },
+          "vitaminA": {
+            "col_names": ["BD8D", "BD8F", "BD8G"],
+            "values": ["Yes"]
+          },
+          "other": {
+            "col_names": ["BD8H"],
+            "values": ["Yes"]
+          }
+        },
+        "mmf_ch": {
+          "formula_times": {
+            "col_names": ["BF5"]
+          },
+          "other_milk_times": {
+            "col_names": ["BF7"]
+          },
+          "yogurt_times": {
+            "col_names": ["BF14"]
+          },
+          "solid_semi_soft_times": {
+            "col_names": ["BF17"]
+          },
+          "num_times_cat_list": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+          "num_times_float_list": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+        },
+        "sex_ch": {
+          "col_names": ["hl4"],
+          "values": {
+            "male": ["Male"],
+            "female": ["Female"]
+          }
+        },
+        "momid": {
+          "col_names": ["uf6"]
+        },
+        "mother_edu": {
+          "col_names": ["ed3a_y"],
+          "values": {
+            "ece": ["Preschool/kindergarten"],
+            "primary": ["Primary"],
+            "secondary": [
+              "Lower secondary",
+              "Secondary",
+              "Long apprentice",
+              "Short Apprentice",
+              "Non-standard curriculum"
+            ],
+            "higher": ["Higher"],
+            "DK": ["DK"]
+          }
+        },
+        "mom_edu_fn": "VNM_2006_listing_merge_education.csv",
+        "children_file_subset": {
+          "col_names": ["uf9"],
+          "values": ["Completed"]
+        }
+    },
+    "2000": {
+        "ch_age_cat": {
+          "col_names": ["CAGE"]
+        },
+        "excl_bf": {
+          "breastmilk": {
+            "col_names": ["BF2"],
+            "values": ["Yes"]
+          },
+          "liquids": {
+            "col_names": [
+              "BF3B",
+              "BF3C",
+              "BF3E",
+              "BF3F"
+            ],
+            "values": ["Yes"]
+          },
+          "solids": {
+            "col_names": [
+              "BF3G"
+            ],
+            "values": ["Yes"]
+          }
+        },
+        "mdd_ch": {
+          "grains": {
+            "col_names": ["BD8B", "BD8C", "BD8E"],
+            "values": ["Yes"]
+          },
+          "legumes": {
+            "col_names": ["BD8M"],
+            "values": ["Yes"]
+          },
+          "dairy": {
+            "col_names": ["BD7D", "BD7E", "BD8A", "BD8N"],
+            "values": ["Yes"]
+          },
+          "flesh": {
+            "col_names": ["BD8I", "BD8J", "BD8L"],
+            "values": ["Yes"]
+          },
+          "eggs": {
+            "col_names": ["BD8K"],
+            "values": ["Yes"]
+          },
+          "vitaminA": {
+            "col_names": ["BD8D", "BD8F", "BD8G"],
+            "values": ["Yes"]
+          },
+          "other": {
+            "col_names": ["BD8H"],
+            "values": ["Yes"]
+          }
+        },
+        "mmf_ch": {
+          "formula_times": {
+            "col_names": ["BF5"]
+          },
+          "other_milk_times": {
+            "col_names": ["BF7"]
+          },
+          "yogurt_times": {
+            "col_names": ["BF14"]
+          },
+          "solid_semi_soft_times": {
+            "col_names": ["BF17"]
+          },
+          "num_times_cat_list": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+          "num_times_float_list": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+        },
+        "sex_ch": {
+          "col_names": ["HL3"],
+          "values": {
+            "male": ["Male"],
+            "female": ["Female"]
+          }
+        },
+        "momid": {
+          "col_names": ["CHCTNO"]
+        },
+        "mother_edu": {
+          "col_names": ["ED16A"],
+          "values": {
+            "ece": ["NULL"],
+            "primary": ["Primary"],
+            "secondary": [
+              "Lower secondary diploma",
+              "Upper secondary diploma",
+              "Technical higher school",
+              "Non-standard curriculum"
+            ],
+            "higher": ["College University or higher"],
+            "DK": ["Don't know"]
+          }
+        },
+        "mom_edu_fn": "VNM_2000_listing_merge_education.csv",
+        "children_file_subset": {
+          "col_names": ["HI10"],
+          "values": ["Completed"]
+        }
+    }
+  }
+}
