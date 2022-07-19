@@ -11,6 +11,7 @@ import statsmodels.api as sm
 from aw_analytics import mean_wt
 
 
+
 def read_csv_file(country, recode, year=None, file_type='combined'):
     """
     Function to read in specified file.
@@ -42,6 +43,8 @@ def read_csv_file(country, recode, year=None, file_type='combined'):
 
     return df
 
+
+
 def concatenate_dfs(list_of_dfs):
     """
     Function to concatenate analyzed dfs into combined file for tabulation
@@ -51,6 +54,8 @@ def concatenate_dfs(list_of_dfs):
     df = pd.concat(list_of_dfs, ignore_index=True)
 
     return df
+
+
 
 def save_combined(df, country, recode):
 
@@ -103,24 +108,16 @@ def create_reduced_df(df, var_dep, ind_var, var_year, weight):
     year_min = temp[var_year[0]].min()
     year_max = temp[var_year[0]].max()
 
-    # print(f"year_min is {year_min} and year_max is {year_max}")
-
     year_min_max_list = [year_min, year_max]
 
     # Keep only min, max years
-    # print(f"df shape after keep_col, dropna is: \n {temp.shape} ")
-
     temp = temp[temp[var_year[0]].isin(year_min_max_list)]
-
-    # print(f"df shape after isin year_min_max is: \n {temp.shape}")
 
     # Remove wealth middle categories
     temp = drop_wealth_middle_cats(temp, var_dep)
 
     # Remove region middle categories
     temp = drop_region_middle_cats(temp, var_dep, ind_var, year_min, weight)
-
-    # print(f"df shape after drop_region_middle is: \n {temp.shape}")
 
     return temp, year_min_max_list
 
@@ -254,6 +251,8 @@ def create_bivariate_var_dep(df):
     temp['eth_hoh_biv'] = np.where(temp['eth_hoh'].isin(kinh_hoa_values), 'Kinh_Hoa', 'Non-Kinh_Hoa') 
 
     return temp
+
+
 
 
 
